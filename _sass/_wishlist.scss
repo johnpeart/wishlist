@@ -3,6 +3,33 @@
 // Loop page styles
 
 body#wishlist {
+		
+	h1#site-heading {
+		
+		font-weight: 			900;
+		text-align: 			left;
+		
+		line-height: 			1.1 !important;
+
+
+
+		@include xs {
+			font-size: 			$h1-font-size-base-xs;	
+		}
+		@include sm {
+			font-size: 			$h1-font-size-base-sm;	
+		}
+		@include md {
+			font-size: 			$h1-font-size-base-md;	
+		}
+		@include lg {
+			font-size: 			$h1-font-size-base-lg;	
+		}
+		@include xl {
+			font-size: 			$h1-font-size-base-xl;	
+		}
+		
+	}
 	
 	section#page-content > section {
 		
@@ -23,148 +50,74 @@ body#wishlist {
 		}
 		
 		@include clearfix;
-	}
-				
-	h1.page-title {
-		@include xs {
-			font-size: 		$h1-font-size-base-xs;
-		}
-		@include sm {
-			font-size: 		$h1-font-size-base-sm;
-		}
-		@include md {
-			font-size: 		$h1-font-size-base-md;
-		}
-		@include lg {
-			font-size: 		$h1-font-size-base-lg * 2;
-			line-height: 	$h1-line-height-base-lg * 2;
-		}
-		@include xl {
-			font-size: 		$h1-font-size-base-xl * 1.5;
-			line-height: 	$h1-line-height-base-xl * 1.5;
-		}
-	}
-				
-	h2.loop-header {
-		
-		text-align: 		left;
-		
-		@include sm-up {
-			float: 			left;
-		}
-		
-		@include xs {
-			font-size: 		$h2-font-size-base-xs * 1.25;
-			line-height: 		$p-line-height-base-xs * 1.4;
-			padding-top:	$h2-padding-top-xs / 3;
-		}
-		
-		@include sm-up {
-			width: 				30%;
-			padding-top: 		0;
-		}
-		
-		@include sm {
-			font-size: 			$p-font-size-base-sm * 1.4;
-			line-height: 		$p-line-height-base-sm * 1.4;
-		}
-		
-		@include md {
-			font-size: 			$p-font-size-base-md * 1.4;
-			line-height: 		$p-line-height-base-md * 1.4;
-		}
-		
-		@include lg {
-			font-size: 			$p-font-size-base-lg * 1.4;
-			line-height: 		$p-line-height-base-lg * 1.4;
-		}
-		
-		@include xl {
-			font-size: 			$p-font-size-base-xl * 1.4;
-			line-height: 		$p-line-height-base-xl * 1.4;
-		}
 		
 	}
 	
-	ul.about {
+	ul {		
+		padding: 			0;
+		margin: 			0;
 		
-		padding-left: 0;
+		list-style: 		none !important;
 		
-		li:before {
-			position: 		absolute;
-		    content: 		none;
-		    
-		    left: 			0;
-		}
-		
-		p.about-job-title {
+		li {
+			list-style: 	none;
+			padding: 		0;
+			margin: 		10px 0;
+						
+			box-sizing: 	border-box;
 			
-			font-weight: 		bold !important;
-			
-			padding-bottom: 0;
-		
-		}
-		
-		p.about-notes {
-			font-style: 	italic;
-			
-			padding-bottom: 0;
-			
-			@include xs {
-				font-size: 		$p-font-size-base-xs * 0.75;
-				line-height: 	$p-line-height-base-xs * 0.75;
+			span.item-name {
+				display: 	block;
+				float:      none;
+				clear:      both;
+				min-width: 	100%;
+				@include sm-up {
+					display: 	inline-block;
+					float:		left;
+					clear:		none;
+					min-width: 	60%;
+				}
 			}
-			@include sm {
-				font-size: 		$p-font-size-base-sm * 0.75;
-				line-height: 	$p-line-height-base-sm * 0.75;
-			}
-			@include md {
-				font-size: 		$p-font-size-base-md * 0.75;
-				line-height: 	$p-line-height-base-md * 0.75;
-			}
-			@include lg {
-				font-size: 		$p-font-size-base-lg * 0.75;
-				line-height: 	$p-line-height-base-lg * 0.75;
-			}
-			@include xl {
-				font-size: 		$p-font-size-base-xl * 0.75;
-				line-height: 	$p-line-height-base-xl * 0.75;
-			}
-		}	
-		
-		p.about-organisation {
-			
-			padding-bottom: 0;
-			
-			a {
-				text-decoration: none;
+			aside.item-metadata {
+				display: 	block;
+				float:		none;
+				clear: 		both;
+				@include sm-up {
+					display: 	inline-block;
+					float:		right;
+					clear:		none;
+				}
 				
-				&:hover,
-				&:focus {
-					text-decoration: underline;
+				
+				
+			}
+			span.item-price {
+				margin-left: 20px;
+			}
+			span.item-giftidea {
+				color: $white;
+				background: $cyan;
+				
+				border: 1px solid $cyan;
+				border-radius: 6px;
+				
+				padding: 2px 6px;
+				text-transform: uppercase;
+				
+				&.small-caps {
+					position: relative;
+					font-variant: small-caps !important;
+					font-size: 70%;
+					line-height: 1;
+					top: -2px;
+					vertical-align: middle;
 				}
 			}
 			
+			@include clearfix;
 		}
-		
-		p.about-time {
-			font-style: 	italic;
-		}	
-		
-		@include md-up {
-			float: 			left;
-		}
-		
-		@include md {
-			width: 			60%;
-		}
-		@include lg {
-			width: 			60%;
-		}
-		@include xl {
-			width: 			60%;
-		}	
-		
-	}		
+	}
+					
+	
 	
 }

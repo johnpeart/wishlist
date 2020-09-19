@@ -1,0 +1,44 @@
+- list: Software
+  items:
+  - name: item 1
+    price: 9.99
+    link: http://www.google.com
+    purchased: false
+    gift-idea: true
+  - name: item 2
+    price: 9.99
+    link: http://www.google.com
+    purchase: true
+    gift-idea: true
+
+- list: Photography
+  items:
+  - name: item 1
+    price: 9.99
+    link: http://www.google.com
+    purchased: false
+    gift-idea: true
+
+- list: Gaming
+  items:
+  - name: item 1
+    price: 9.99
+    link: http://www.google.com
+    purchased: false
+    gift-idea: true
+
+- list: Fashion
+  items:
+  - name: item 1
+    price: 9.99
+    link: http://www.google.com
+    purchased: false
+    gift-idea: true
+
+- list: Homeware
+  items:
+  - name: item 1
+    price: 9.99
+    link: http://www.google.com
+    purchased: false
+    gift-idea: true

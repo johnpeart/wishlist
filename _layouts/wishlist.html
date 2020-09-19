@@ -9,8 +9,35 @@ layout: default
 	<section id="page-content">
 
 		<h1 class="site-heading">Wishlist</h1>
+		
+		<p>These are the things I want to get at some point. Some of things I expect to buy myself, some of them are things I probably wouldn't spend the money on but would be great as a gift.</p>
 
-		{{ content }}
+		{% for wishlist in site.data.wishlist %}
+		
+		<section>
+			
+			<h2>{{ wishlist.list }}</h2>
+			
+			<ul>
+			{% for item in wishlist.items %}
+				
+				<li class="item-purchased-{{ item.purchased }}">
+					<span class="item-name"><a href="{{ item.link }}">{{ item.name }}</a></span>
+					<aside class="item-metadata">
+						{% if item.gift-idea == true %}
+						<span class="item-giftidea small-caps">Gift idea</span>
+						{% endif %}
+						<span class="item-price">{{ item.price | prepend: "£" }}</span>
+					</aside>
+				</li>
+				
+			{% endfor %}
+			</ul>
+			
+		</section>
+		
+		
+		{% endfor %}
 							
 	</section>
 	

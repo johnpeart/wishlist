@@ -419,42 +419,28 @@ figure.image figcaption { font-size: 17.6px; line-height: 27.5px; margin-bottom:
 @media only screen and (min-width: 1000px) and (max-width: 1199px) { figure.image figcaption { font-size: 20.8px; line-height: 32.5px; margin-bottom: 26px; } }
 @media only screen and (min-width: 1200px) { figure.image figcaption { font-size: 24px; line-height: 36px; margin-bottom: 30px; } }
 
+body#wishlist h1#site-heading { font-weight: 900; text-align: left; line-height: 1.1 !important; }
+@media only screen and (max-width: 599px) { body#wishlist h1#site-heading { font-size: 44px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist h1#site-heading { font-size: 60.5px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist h1#site-heading { font-size: 60.5px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist h1#site-heading { font-size: 71.5px; } }
+@media only screen and (min-width: 1200px) { body#wishlist h1#site-heading { font-size: 82.5px; } }
 @media only screen and (max-width: 599px) { body#wishlist section#page-content > section { padding-bottom: 0; } }
 @media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist section#page-content > section { padding-bottom: 0; } }
 @media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist section#page-content > section { padding-bottom: 33px; } }
 @media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist section#page-content > section { padding-bottom: 39px; } }
 @media only screen and (min-width: 1200px) { body#wishlist section#page-content > section { padding-bottom: 45px; } }
 body#wishlist section#page-content > section::after { content: ""; clear: both; display: table; }
-@media only screen and (max-width: 599px) { body#wishlist h1.page-title { font-size: 44px; } }
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist h1.page-title { font-size: 60.5px; } }
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist h1.page-title { font-size: 60.5px; } }
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist h1.page-title { font-size: 143px; line-height: 143px; } }
-@media only screen and (min-width: 1200px) { body#wishlist h1.page-title { font-size: 123.75px; line-height: 123.75px; } }
-body#wishlist h2.loop-header { text-align: left; }
-@media only screen and (min-width: 600px) { body#wishlist h2.loop-header { float: left; } }
-@media only screen and (max-width: 599px) { body#wishlist h2.loop-header { font-size: 33.75px; line-height: 38.5px; padding-top: 9px; } }
-@media only screen and (min-width: 600px) { body#wishlist h2.loop-header { width: 30%; padding-top: 0; } }
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist h2.loop-header { font-size: 30.8px; line-height: 38.5px; } }
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist h2.loop-header { font-size: 30.8px; line-height: 38.5px; } }
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist h2.loop-header { font-size: 36.4px; line-height: 45.5px; } }
-@media only screen and (min-width: 1200px) { body#wishlist h2.loop-header { font-size: 42px; line-height: 50.4px; } }
-body#wishlist ul.about { padding-left: 0; }
-body#wishlist ul.about li:before { position: absolute; content: none; left: 0; }
-body#wishlist ul.about p.about-job-title, body#wishlist ul.about .about-job-title.skip-link { font-weight: bold !important; padding-bottom: 0; }
-body#wishlist ul.about p.about-notes, body#wishlist ul.about .about-notes.skip-link { font-style: italic; padding-bottom: 0; }
-@media only screen and (max-width: 599px) { body#wishlist ul.about p.about-notes, body#wishlist ul.about .about-notes.skip-link { font-size: 16.5px; line-height: 20.625px; } }
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist ul.about p.about-notes, body#wishlist ul.about .about-notes.skip-link { font-size: 16.5px; line-height: 20.625px; } }
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist ul.about p.about-notes, body#wishlist ul.about .about-notes.skip-link { font-size: 16.5px; line-height: 20.625px; } }
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist ul.about p.about-notes, body#wishlist ul.about .about-notes.skip-link { font-size: 19.5px; line-height: 24.375px; } }
-@media only screen and (min-width: 1200px) { body#wishlist ul.about p.about-notes, body#wishlist ul.about .about-notes.skip-link { font-size: 22.5px; line-height: 27px; } }
-body#wishlist ul.about p.about-organisation, body#wishlist ul.about .about-organisation.skip-link { padding-bottom: 0; }
-body#wishlist ul.about p.about-organisation a, body#wishlist ul.about .about-organisation.skip-link a { text-decoration: none; }
-body#wishlist ul.about p.about-organisation a:hover, body#wishlist ul.about .about-organisation.skip-link a:hover, body#wishlist ul.about p.about-organisation a:focus, body#wishlist ul.about .about-organisation.skip-link a:focus { text-decoration: underline; }
-body#wishlist ul.about p.about-time, body#wishlist ul.about .about-time.skip-link { font-style: italic; }
-@media only screen and (min-width: 766px) { body#wishlist ul.about { float: left; } }
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist ul.about { width: 60%; } }
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist ul.about { width: 60%; } }
-@media only screen and (min-width: 1200px) { body#wishlist ul.about { width: 60%; } }
+body#wishlist ul { padding: 0; margin: 0; list-style: none !important; }
+body#wishlist ul li { list-style: none; padding: 0; margin: 10px 0; box-sizing: border-box; }
+body#wishlist ul li span.item-name { display: block; float: none; clear: both; min-width: 100%; }
+@media only screen and (min-width: 600px) { body#wishlist ul li span.item-name { display: inline-block; float: left; clear: none; min-width: 60%; } }
+body#wishlist ul li aside.item-metadata { display: block; float: none; clear: both; }
+@media only screen and (min-width: 600px) { body#wishlist ul li aside.item-metadata { display: inline-block; float: right; clear: none; } }
+body#wishlist ul li span.item-price { margin-left: 20px; }
+body#wishlist ul li span.item-giftidea { color: #fafafa; background: #009fe3; border: 1px solid #009fe3; border-radius: 6px; padding: 2px 6px; text-transform: uppercase; }
+body#wishlist ul li span.item-giftidea.small-caps { position: relative; font-variant: small-caps !important; font-size: 70%; line-height: 1; top: -2px; vertical-align: middle; }
+body#wishlist ul li::after { content: ""; clear: both; display: table; }
 
 body#four-oh-four .colophon { max-width: 750px; }
 @media only screen and (max-width: 599px) { body#four-oh-four .colophon h1.colophon-heading { font-size: 66px; line-height: 59.4px; padding-top: 132px; padding-bottom: 11px; margin-left: -3px; } }
