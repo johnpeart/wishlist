@@ -43,7 +43,11 @@ layout: default
 						{% if item.gift-idea == true %}
 						<span class="item-giftidea">Gift idea</span>
 						{% endif %}
+						{% if item.price == 0.00 %}
+						<span class="item-price">Varies</span>
+						{% else %}
 						<span class="item-price">{{ item.price | round | prepend: "£" }}</span>
+						{% endif %}
 					</aside>
 				</li>
 				

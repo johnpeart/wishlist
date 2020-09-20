@@ -30,6 +30,25 @@
     purchased: false
     link: "pending"
     gift-idea: true
+  - name: "Star Wars: Squadrons"
+    extra-details: "PS4"
+    price: 29.99
+    purchased: false
+    link: "https://www.amazon.co.uk/Electronic-Arts-1077179-Star-Wars/dp/B08B6QBD53/ref=sr_1_1?crid=3OJPL3NCHLLB3&dchild=1&keywords=star+wars+squadron+ps4&qid=1600599768&sprefix=Star+Wars+sq%2Caps%2C173&sr=8-1"
+    gift-idea: true
+  - name: "Watch Dogs Legion"
+    extra-details: "PS4 or PS5"
+    price: 51.99
+    purchased: false
+    link: "https://www.amazon.co.uk/Watch-Legion-Limited-Exclusive-Amazon-co-uk/dp/B08FC1S9YB/ref=sr_1_2?dchild=1&keywords=watch%2Bdogs%2Blegion&qid=1600599912&sr=8-2&th=1"
+    gift-idea: false
+  - name: "Hyrule Warriors: Age of Calamity"
+    extra-details: "Nintendo Switch"
+    price: 49.99
+    purchased: false
+    link: "https://store.nintendo.co.uk/nintendo-switch-game/hyrule-warriors-age-of-calamity/12691877.html?out-of-stock-alternative"
+    gift-idea: true
+    
 
 - list: "Consoles and accessories"
   items:
@@ -37,34 +56,48 @@
     price: 449.00
     purchased: false
     gift-idea: false
-  - name: "Nintendo Switch Pro Controller"
-    price: 54.99
+  - name: "Nintendo Switch Wireless Controller"
+    price: 44.99
     purchased: false
-    link: "pending"
+    link: "https://store.nintendo.co.uk/nintendo-switch-accessory/nintendo-switch-wireless-controller-super-mario/12615005.html"
+    gift-idea: true
+  - name: "Nintendo Switch Accessory Set"
+    price: 16.99
+    purchased: false
+    link: "https://store.nintendo.co.uk/nintendo-switch-accessory/nintendo-switch-accessory-set/11396100.html"
     gift-idea: true
 
 - list: "Accessories"
+  description: "These are just examples from Etsy; use them as inspiration."
   items:
   - name: "Star Trek tie clip"
     price: 7.23
     purchased: false
-    link: "pending"
+    link: "https://www.etsy.com/uk/listing/219786152/super-tie-clip-26-styles-superman?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Star+Trek+tie+clip&ref=sr_gallery-1-7&organic_search_click=1&bes=1"
     gift-idea: true
   - name: "LEGO tie clip"
     price: 11.95
     purchased: false
-    link: "pending"
+    link: "https://www.etsy.com/uk/listing/171135978/chrome-silver-tie-slide-tie-clip?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=lego+tie+clip&ref=sr_gallery-1-1&organic_search_click=1"
     gift-idea: true
   - name: "LEGO cufflinks"
-    price: 13.95
+    price: 23.99
     purchased: false
-    link: "pending"
+    link: "https://www.etsy.com/uk/listing/737844169/silver-square-lego-like-building-block?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=lego+tie+clip&ref=sc_gallery-1-8&plkey=e6c20ba84505247989195770f27be0a1f75209ab%3A737844169&frs=1"
     gift-idea: true
   - name: "Heatsink cufflinks"
     price: 8.00
     purchased: false
-    link: "pending"
+    link: "https://www.etsy.com/uk/listing/223531692/copper-heatsink-cufflinks-raspberry-pi?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=heatsink+cufflinks&ref=sr_gallery-1-1&organic_search_click=1&frs=1"
     gift-idea: true
+  - name: "Star Wars Millenium Falcon silk tie"
+    price: 24.13
+    purchased: false
+    link: "https://www.etsy.com/uk/listing/782748632/star-wars-tie-millennium-falcon-necktie?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=star+trek+ties&ref=sc_gallery-1-1&plkey=a638fa63ff0a7067b852361a8ba60c985e753c24%3A782748632&bes=1"
+    gift-idea: true
+
+- list: "Apple accessories"
+  items:
   - name: "Apple Watch Sport Loop"
     extra-details: "44mm, Size X, PRODUCT(RED)"
     price: 49.00
@@ -83,7 +116,13 @@
     purchased: false
     link: "https://www.apple.com/uk/shop/product/MY9D2ZM/A/40mm-california-poppy-leather-link-s-m?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
     gift-idea: true
-    
+  - name: "Airpods Pro leather case"
+    extra-details: "This is just an example; search around on Etsy for a nice one"
+    price: 24.13
+    purchased: false
+    link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=airpods+pro+leather&ref=sr_gallery-1-4&organic_search_click=1"
+    gift-idea: true   
+ 
 - list: "Making"
   items:
   - name: "Raspberry Pi High Quality Camera Module"
@@ -106,12 +145,17 @@
     purchased: false
     link: "pending"
     gift-idea: true
+  - name: "Raspberry Pi Zero W"
+    price: 9.80
+    purchased: false
+    link: "https://thepihut.com/products/raspberry-pi-zero-w?src=raspberrypi"
+    gift-idea: false
 
 - list: "Stationery"
   items:
   - name: "Fountain pen"
-    extra-detail: "An all metal fountain pen with refillable ink"
-    price: 50.00
+    extra-details: "An all metal fountain pen with refillable ink"
+    price: 0.00
     purchased: false
     gift-idea: true
     
@@ -121,4 +165,43 @@
     price: 79.00
     purchased: false
     link: "pending"
+    gift-idea: true
+        
+- list: "Clothing"
+  items:
+  - name: "Crew neck t-shirts"
+    extra-details: "Size S. Example t-shirt linked."
+    price: 0.00
+    purchased: false
+    link: "https://www.uniqlo.com/uk/en/product/men-100pct-supima-cotton-crew-neck-short-sleeved-t-shirt-422990.html?dwvar_422990_color=COL52&dwvar_422990_size=SMA002"
+    gift-idea: true
+  - name: "Polo shirts"
+    extra-details: "Size S; short sleeved. Example polo shirt linked."
+    price: 19.90
+    purchased: false
+    link: "https://www.uniqlo.com/uk/en/product/men-dry-ex-polo-shirt-422962.html?dwvar_422962_color=COL03&dwvar_422962_size=SMA005"
+    gift-idea: true
+  - name: "Jersey polo shirts"
+    extra-details: "Size S; short sleeved. Example jersey shirt linked."
+    price: 19.90
+    purchased: false
+    link: "https://www.uniqlo.com/uk/en/product/men-airism-jersey-polo-shirt-425770.html?dwvar_425770_color=COL32&dwvar_425770_size=SMA002&cgid=IDm-polo-shirts"
+    gift-idea: true
+  - name: "Mock neck jumpers"
+    extra-details: "Size S"
+    price: 34.90
+    purchased: false
+    link: "https://www.uniqlo.com/uk/en/product/men-uniqlo-u-merino-blend-mock-neck-jumper-432922.html?dwvar_432922_color=COL34&dwvar_432922_size=SMA002"
+    gift-idea: true
+  - name: "Sports socks"
+    extra-details: "Size 10, low cut"
+    price: 0.00
+    purchased: false
+    link: "https://www.uniqlo.com/uk/en/product/men-low-cut-socks-423538.html?dwvar_423538_color=COL65&dwvar_423538_size=MSC027&cgid=IDm-socks"
+    gift-idea: true
+  - name: "Grandad collar shirts"
+    extra-details: "Size S"
+    price: 24.90
+    purchased: false
+    link: "https://www.uniqlo.com/uk/en/product/men-extra-fine-cotton-broadcloth-regular-fit-shirt-grandad-collar-425687.html?dwvar_425687_color=COL64&dwvar_425687_size=SMA002&cgid=IDalternate-styles2308&hassubcat=false"
     gift-idea: true
