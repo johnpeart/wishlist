@@ -205,3 +205,11 @@
     purchased: false
     link: "https://www.uniqlo.com/uk/en/product/men-extra-fine-cotton-broadcloth-regular-fit-shirt-grandad-collar-425687.html?dwvar_425687_color=COL64&dwvar_425687_size=SMA002&cgid=IDalternate-styles2308&hassubcat=false"
     gift-idea: true
+    
+- list: "Photography"
+  items:
+  - name: "Sony α7C"
+    price: 2150.00
+    purchased: false
+    link: "https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7c/buy/ilce-7cl"
+    gift-idea: false
