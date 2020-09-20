@@ -1,0 +1,16 @@
+{
+  "clips" : [
+    {
+      "content" : "- list: ${:wishlist}\n  items:\n  - name: ${:first item}\n\tprice: ${:price}\n\tpurchased: ${:true or false}\n\tlink: ${:website URL}\n\tgift-idea: ${:true or false}",
+      "name" : "Wishlist",
+      "scope" : "editor",
+      "syntax" : "yaml"
+    },
+    {
+      "content" : "- name: ${:item name}\n  price: ${:price}\n  purchased: ${:true or false}\n  link: ${:website URL}\n  gift-idea: ${:true or false}",
+      "name" : "Item",
+      "scope" : "editor",
+      "syntax" : "yaml"
+    }
+  ]
+}

@@ -53,6 +53,27 @@ body#wishlist {
 		
 	}
 	
+	aside.intro-text {
+		
+		span.item-giftidea {
+			position: relative;
+			
+			color: $white;
+			background: $cyan;
+			
+			border: 1px solid $cyan;
+			border-radius: 6px;
+			
+			padding: 0px 7px;
+			text-transform: uppercase;
+			font-variant: small-caps !important;
+			font-size: 70%;
+			top: -5px;
+			vertical-align: middle;
+		}
+		
+	}
+	
 	ul {		
 		padding: 			0;
 		margin: 			0;
@@ -61,57 +82,70 @@ body#wishlist {
 		
 		li {
 			list-style: 	none;
-			padding: 		0;
-			margin: 		10px 0;
+			padding: 		20px 0;
 						
 			box-sizing: 	border-box;
 			
-			span.item-name {
+			border-top: 	1px solid $gray-400;
+			@include dark-mode {
+				border-color: $gray-700;
+			}
+			
+			div.item-info {
 				display: 	block;
 				float:      none;
 				clear:      both;
-				min-width: 	100%;
+				width: 	100%;
 				@include sm-up {
-					display: 	inline-block;
+					display: 	block;
 					float:		left;
 					clear:		none;
-					min-width: 	60%;
+					width: 	70%;
 				}
 			}
 			aside.item-metadata {
 				display: 	block;
 				float:		none;
 				clear: 		both;
+				width: 		100%;
+				padding-top: 10px;
 				@include sm-up {
-					display: 	inline-block;
+					display: 	block;
 					float:		right;
 					clear:		none;
+					width: 		30%;
+					padding: 	0;
 				}
+			}
+			span.item-name {
+				display: block;
+				width: 100%;
+			}
+			span.item-extradetails {
+				display: block;
+				width: 100%;
 				
-				
-				
+				font-size: 70%;
 			}
 			span.item-price {
 				margin-left: 20px;
+				float: right;
 			}
 			span.item-giftidea {
+				position: relative;
+				
 				color: $white;
 				background: $cyan;
+				float: left;
 				
 				border: 1px solid $cyan;
 				border-radius: 6px;
 				
-				padding: 2px 6px;
+				padding: 0px 7px;
 				text-transform: uppercase;
-				
-				&.small-caps {
-					position: relative;
-					font-variant: small-caps !important;
-					font-size: 70%;
-					line-height: 1;
-					top: -2px;
-					vertical-align: middle;
-				}
+				font-variant: small-caps !important;
+				font-size: 70%;
+				vertical-align: middle;
 			}
 			
 			@include clearfix;

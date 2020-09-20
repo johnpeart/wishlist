@@ -1,44 +1,124 @@
-- list: Software
+- list: "Gadgets"
   items:
-  - name: item 1
-    price: 9.99
-    link: http://www.google.com
+  - name: "Sphero R2D2"
+    price: 79.99
     purchased: false
+    link: "pending"
     gift-idea: true
-  - name: item 2
-    price: 9.99
-    link: http://www.google.com
-    purchase: true
+  - name: "Sphero BB9E"
+    price: 85.99
+    purchased: false
+    link: "pending"
     gift-idea: true
-
-- list: Photography
+  - name: "Salt Apple TV remote"
+    price: 40.00
+    purchased: false
+    link: "pending"
+    gift-idea: false
+    
+- list: "Games"
   items:
-  - name: item 1
-    price: 9.99
-    link: http://www.google.com
+  - name: "Crash Bandicoot 4: It's About Time"
+    extra-details: "PS4 or Nintendo Switch"
+    price: 54.99
     purchased: false
-    gift-idea: true
-
-- list: Gaming
-  items:
-  - name: item 1
-    price: 9.99
-    link: http://www.google.com
+    link: "pending"
+    gift-idea: false
+  - name: "The Legend of Zelda: Link's Awakening"
+    extra-details: "Nintendo Switch"
+    price: 37.99
     purchased: false
-    gift-idea: true
-
-- list: Fashion
-  items:
-  - name: item 1
-    price: 9.99
-    link: http://www.google.com
-    purchased: false
+    link: "pending"
     gift-idea: true
 
-- list: Homeware
+- list: "Consoles and accessories"
   items:
-  - name: item 1
-    price: 9.99
-    link: http://www.google.com
+  - name: "PlayStation 5"
+    price: 449.00
     purchased: false
+    gift-idea: false
+  - name: "Nintendo Switch Pro Controller"
+    price: 54.99
+    purchased: false
+    link: "pending"
+    gift-idea: true
+
+- list: "Accessories"
+  items:
+  - name: "Star Trek tie clip"
+    price: 7.23
+    purchased: false
+    link: "pending"
+    gift-idea: true
+  - name: "LEGO tie clip"
+    price: 11.95
+    purchased: false
+    link: "pending"
+    gift-idea: true
+  - name: "LEGO cufflinks"
+    price: 13.95
+    purchased: false
+    link: "pending"
+    gift-idea: true
+  - name: "Heatsink cufflinks"
+    price: 8.00
+    purchased: false
+    link: "pending"
+    gift-idea: true
+  - name: "Apple Watch Sport Loop"
+    extra-details: "44mm, Size X, PRODUCT(RED)"
+    price: 49.00
+    purchased: false
+    link: "https://www.apple.com/uk/shop/product/MYNX2ZM/A/40mm-productred-solo-loop-size-1?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
+    gift-idea: true
+  - name: "Apple Watch Braided Solo Loop"
+    extra-details: "44mm, Size X, PRODUCT(RED)"
+    price: 99.00
+    purchased: false
+    link: "https://www.apple.com/uk/shop/product/MY7F2ZM/A/40mm-productred-braided-solo-loop-size-1?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
+    gift-idea: true
+  - name: "Apple Watch Leather Link"
+    extra-details: "44mm, S-M, California Poppy Yellow"
+    price: 99.00
+    purchased: false
+    link: "https://www.apple.com/uk/shop/product/MY9D2ZM/A/40mm-california-poppy-leather-link-s-m?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
+    gift-idea: true
+    
+- list: "Making"
+  items:
+  - name: "Raspberry Pi High Quality Camera Module"
+    price: 49.50
+    purchased: false
+    link: "pending"
+    gift-idea: false
+  - name: "Raspberry Pi High Quality Camera Lens"
+    price: 25.00
+    purchase: false
+    link: "pending"
+    gift-idea: false
+  - name: "Adafruit IoT Pi Printer Project Pack"
+    price: 106.00
+    purchased: false
+    link: "pending"
+    gift-idea: true
+  - name: "Star Trek: Discovery 1/2500 scale model"
+    price: 45.35
+    purchased: false
+    link: "pending"
+    gift-idea: true
+
+- list: "Stationery"
+  items:
+  - name: "Fountain pen"
+    extra-detail: "An all metal fountain pen with refillable ink"
+    price: 50.00
+    purchased: false
+    gift-idea: true
+    
+- list: "Kitchen"
+  items:
+  - name: "Star Trek 'Enterprise' pizza cutter"
+    price: 79.00
+    purchased: false
+    link: "pending"
     gift-idea: true

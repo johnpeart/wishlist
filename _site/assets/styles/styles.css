@@ -431,15 +431,18 @@ body#wishlist h1#site-heading { font-weight: 900; text-align: left; line-height:
 @media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist section#page-content > section { padding-bottom: 39px; } }
 @media only screen and (min-width: 1200px) { body#wishlist section#page-content > section { padding-bottom: 45px; } }
 body#wishlist section#page-content > section::after { content: ""; clear: both; display: table; }
+body#wishlist aside.intro-text span.item-giftidea { position: relative; color: #fafafa; background: #009fe3; border: 1px solid #009fe3; border-radius: 6px; padding: 0px 7px; text-transform: uppercase; font-variant: small-caps !important; font-size: 70%; top: -5px; vertical-align: middle; }
 body#wishlist ul { padding: 0; margin: 0; list-style: none !important; }
-body#wishlist ul li { list-style: none; padding: 0; margin: 10px 0; box-sizing: border-box; }
-body#wishlist ul li span.item-name { display: block; float: none; clear: both; min-width: 100%; }
-@media only screen and (min-width: 600px) { body#wishlist ul li span.item-name { display: inline-block; float: left; clear: none; min-width: 60%; } }
-body#wishlist ul li aside.item-metadata { display: block; float: none; clear: both; }
-@media only screen and (min-width: 600px) { body#wishlist ul li aside.item-metadata { display: inline-block; float: right; clear: none; } }
-body#wishlist ul li span.item-price { margin-left: 20px; }
-body#wishlist ul li span.item-giftidea { color: #fafafa; background: #009fe3; border: 1px solid #009fe3; border-radius: 6px; padding: 2px 6px; text-transform: uppercase; }
-body#wishlist ul li span.item-giftidea.small-caps { position: relative; font-variant: small-caps !important; font-size: 70%; line-height: 1; top: -2px; vertical-align: middle; }
+body#wishlist ul li { list-style: none; padding: 20px 0; box-sizing: border-box; border-top: 1px solid #ced4da; }
+@media (prefers-color-scheme: dark) { body#wishlist ul li { border-color: #495057; } }
+body#wishlist ul li div.item-info { display: block; float: none; clear: both; width: 100%; }
+@media only screen and (min-width: 600px) { body#wishlist ul li div.item-info { display: block; float: left; clear: none; width: 70%; } }
+body#wishlist ul li aside.item-metadata { display: block; float: none; clear: both; width: 100%; padding-top: 10px; }
+@media only screen and (min-width: 600px) { body#wishlist ul li aside.item-metadata { display: block; float: right; clear: none; width: 30%; padding: 0; } }
+body#wishlist ul li span.item-name { display: block; width: 100%; }
+body#wishlist ul li span.item-extradetails { display: block; width: 100%; font-size: 70%; }
+body#wishlist ul li span.item-price { margin-left: 20px; float: right; }
+body#wishlist ul li span.item-giftidea { position: relative; color: #fafafa; background: #009fe3; float: left; border: 1px solid #009fe3; border-radius: 6px; padding: 0px 7px; text-transform: uppercase; font-variant: small-caps !important; font-size: 70%; vertical-align: middle; }
 body#wishlist ul li::after { content: ""; clear: both; display: table; }
 
 body#four-oh-four .colophon { max-width: 750px; }

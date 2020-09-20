@@ -2,8 +2,8 @@
 
 # host: 192.168.1.66
 
-title: "Goals"
-description: "I'm John Peart. These are my goals for this year."
+title: "Wishlist"
+description: "I'm John Peart. These are things I might buy or that you might like to buy for me."
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wishlist.johnpe.art"
