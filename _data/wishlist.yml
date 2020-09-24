@@ -99,13 +99,13 @@
 - list: "Apple accessories"
   items:
   - name: "Apple Watch Sport Loop"
-    extra-details: "44mm, Size X, PRODUCT(RED)"
+    extra-details: "44mm, Size 4, PRODUCT(RED)"
     price: 49.00
     purchased: false
     link: "https://www.apple.com/uk/shop/product/MYNX2ZM/A/40mm-productred-solo-loop-size-1?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
     gift-idea: true
   - name: "Apple Watch Braided Solo Loop"
-    extra-details: "44mm, Size X, PRODUCT(RED)"
+    extra-details: "44mm, Size 4, PRODUCT(RED)"
     price: 99.00
     purchased: false
     link: "https://www.apple.com/uk/shop/product/MY7F2ZM/A/40mm-productred-braided-solo-loop-size-1?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
