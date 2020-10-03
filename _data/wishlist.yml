@@ -254,11 +254,13 @@
 - list: "Home"
   items:
   - name: "1984 pillow"
+    extra-details: "Price in USD"
     price: 39.99
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1984"
     gift-idea: true
   - name: "1998 pillow"
+    extra-details: "Price in USD"
     price: 39.99
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
