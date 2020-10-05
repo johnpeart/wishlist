@@ -19,10 +19,10 @@
 - list: "Games"
   items:
   - name: "Crash Bandicoot 4: It's About Time"
-    extra-details: "PS4 or Nintendo Switch"
+    extra-details: "PS4"
     price: 54.99
     purchased: false
-    link: "pending"
+    link: "https://www.amazon.co.uk/Crash-BandicootTM-About-Time-Tote/dp/B08CBNQ4YM/ref=sr_1_1?dchild=1&keywords=crash+4&qid=1601883723&sr=8-1"
     gift-idea: false
   - name: "The Legend of Zelda: Link's Awakening"
     extra-details: "Nintendo Switch"
