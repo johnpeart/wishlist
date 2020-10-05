@@ -3,12 +3,12 @@
   - name: "Sphero R2D2"
     price: 79.99
     purchased: false
-    link: "pending"
+    link: "https://www.amazon.co.uk/Sphero-R201ROW-App-Enabled-Action-Figure/dp/B071LLZKG7/ref=sr_1_2?dchild=1&keywords=sphere+r2d2&qid=1601883863&sr=8-2"
     gift-idea: true
   - name: "Sphero BB9E"
     price: 85.99
     purchased: false
-    link: "pending"
+    link: "https://www.amazon.co.uk/BB-9E-App-Enabled-Droid-Trainer-Sphero-Black-Grey/dp/B0728CLPJY/ref=sr_1_1?dchild=1&keywords=sphere+bb9e&qid=1601883921&sr=8-1"
     gift-idea: true
   - name: "Salt Apple TV remote"
     price: 40.00
