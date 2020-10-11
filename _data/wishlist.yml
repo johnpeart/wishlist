@@ -3,17 +3,17 @@
   - name: "Sphero R2D2"
     price: 79.99
     purchased: false
-    link: "https://www.amazon.co.uk/Sphero-R201ROW-App-Enabled-Action-Figure/dp/B071LLZKG7/ref=sr_1_2?dchild=1&keywords=sphere+r2d2&qid=1601883863&sr=8-2"
+    link: "https://www.amazon.co.uk/Sphero-R201ROW-App-Enabled-Action-Figure/dp/B071LLZKG7/"
     gift-idea: true
   - name: "Sphero BB9E"
     price: 85.99
     purchased: false
-    link: "https://www.amazon.co.uk/BB-9E-App-Enabled-Droid-Trainer-Sphero-Black-Grey/dp/B0728CLPJY/ref=sr_1_1?dchild=1&keywords=sphere+bb9e&qid=1601883921&sr=8-1"
+    link: "https://www.amazon.co.uk/BB-9E-App-Enabled-Droid-Trainer-Sphero-Black-Grey/dp/B0728CLPJY/"
     gift-idea: true
   - name: "Salt Apple TV remote"
     price: 40.00
     purchased: false
-    link: "pending"
+    link: "https://www.ebay.co.uk/itm/Salt-Apple-TV-Remote-Control-Alternative-Swiss-version/333578617307"
     gift-idea: false
     
 - list: "Games"
@@ -22,7 +22,7 @@
     extra-details: "PS4"
     price: 54.99
     purchased: false
-    link: "https://www.amazon.co.uk/Crash-BandicootTM-About-Time-Tote/dp/B08CBNQ4YM/ref=sr_1_1?dchild=1&keywords=crash+4&qid=1601883723&sr=8-1"
+    link: "https://www.amazon.co.uk/Crash-BandicootTM-About-Time-Tote/dp/B08CBNQ4YM/"
     gift-idea: false
   - name: "The Legend of Zelda: Link's Awakening"
     extra-details: "Nintendo Switch"
@@ -34,19 +34,19 @@
     extra-details: "PS4"
     price: 29.99
     purchased: false
-    link: "https://www.amazon.co.uk/Electronic-Arts-1077179-Star-Wars/dp/B08B6QBD53/ref=sr_1_1?crid=3OJPL3NCHLLB3&dchild=1&keywords=star+wars+squadron+ps4&qid=1600599768&sprefix=Star+Wars+sq%2Caps%2C173&sr=8-1"
+    link: "https://www.amazon.co.uk/Electronic-Arts-1077179-Star-Wars/dp/B08B6QBD53/"
     gift-idea: true
   - name: "Watch Dogs Legion"
     extra-details: "PS4 or PS5"
     price: 51.99
     purchased: false
-    link: "https://www.amazon.co.uk/Watch-Legion-Limited-Exclusive-Amazon-co-uk/dp/B08FC1S9YB/ref=sr_1_2?dchild=1&keywords=watch%2Bdogs%2Blegion&qid=1600599912&sr=8-2&th=1"
+    link: "https://www.amazon.co.uk/Watch-Legion-Limited-Exclusive-Amazon-co-uk/dp/B08FC1S9YB/"
     gift-idea: false
   - name: "Hyrule Warriors: Age of Calamity"
     extra-details: "Nintendo Switch"
     price: 49.99
     purchased: false
-    link: "https://store.nintendo.co.uk/nintendo-switch-game/hyrule-warriors-age-of-calamity/12691877.html?out-of-stock-alternative"
+    link: "https://store.nintendo.co.uk/nintendo-switch-game/hyrule-warriors-age-of-calamity/12691877.html"
     gift-idea: true
     
 
@@ -73,27 +73,27 @@
   - name: "Star Trek tie clip"
     price: 7.23
     purchased: false
-    link: "https://www.etsy.com/uk/listing/219786152/super-tie-clip-26-styles-superman?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Star+Trek+tie+clip&ref=sr_gallery-1-7&organic_search_click=1&bes=1"
+    link: "https://www.etsy.com/uk/listing/219786152/super-tie-clip-26-styles-superman"
     gift-idea: true
   - name: "LEGO tie clip"
     price: 11.95
     purchased: false
-    link: "https://www.etsy.com/uk/listing/171135978/chrome-silver-tie-slide-tie-clip?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=lego+tie+clip&ref=sr_gallery-1-1&organic_search_click=1"
+    link: "https://www.etsy.com/uk/listing/171135978/chrome-silver-tie-slide-tie-clip"
     gift-idea: true
   - name: "LEGO cufflinks"
     price: 23.99
     purchased: false
-    link: "https://www.etsy.com/uk/listing/737844169/silver-square-lego-like-building-block?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=lego+tie+clip&ref=sc_gallery-1-8&plkey=e6c20ba84505247989195770f27be0a1f75209ab%3A737844169&frs=1"
+    link: "https://www.etsy.com/uk/listing/737844169/silver-square-lego-like-building-block"
     gift-idea: true
   - name: "Heatsink cufflinks"
     price: 8.00
     purchased: false
-    link: "https://www.etsy.com/uk/listing/223531692/copper-heatsink-cufflinks-raspberry-pi?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=heatsink+cufflinks&ref=sr_gallery-1-1&organic_search_click=1&frs=1"
+    link: "https://www.etsy.com/uk/listing/223531692/copper-heatsink-cufflinks-raspberry-pi"
     gift-idea: true
   - name: "Star Wars Millenium Falcon silk tie"
     price: 24.13
     purchased: false
-    link: "https://www.etsy.com/uk/listing/782748632/star-wars-tie-millennium-falcon-necktie?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=star+trek+ties&ref=sc_gallery-1-1&plkey=a638fa63ff0a7067b852361a8ba60c985e753c24%3A782748632&bes=1"
+    link: "https://www.etsy.com/uk/listing/782748632/star-wars-tie-millennium-falcon-necktie"
     gift-idea: true
 
 - list: "Apple accessories"
@@ -102,25 +102,25 @@
     extra-details: "44mm, Size 4, PRODUCT(RED)"
     price: 49.00
     purchased: false
-    link: "https://www.apple.com/uk/shop/product/MYNX2ZM/A/40mm-productred-solo-loop-size-1?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
+    link: "https://www.apple.com/uk/shop/product/MYNX2ZM/A/40mm-productred-solo-loop-size-1"
     gift-idea: true
   - name: "Apple Watch Braided Solo Loop"
     extra-details: "44mm, Size 4, PRODUCT(RED)"
     price: 99.00
     purchased: false
-    link: "https://www.apple.com/uk/shop/product/MY7F2ZM/A/40mm-productred-braided-solo-loop-size-1?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
+    link: "https://www.apple.com/uk/shop/product/MY7F2ZM/A/40mm-productred-braided-solo-loop-size-1"
     gift-idea: true
   - name: "Apple Watch Leather Link"
     extra-details: "44mm, S-M, California Poppy Yellow"
     price: 99.00
     purchased: false
-    link: "https://www.apple.com/uk/shop/product/MY9D2ZM/A/40mm-california-poppy-leather-link-s-m?fnode=1a0769edad9cf46e09c160b3acedba7b8830b8249ea2cc97fd387af20ba931842f3b6c58133f8e538fea9c179029a2d0a3075b81629c902aa08cc7281f949886086e424d9e4195c9f402249256c7b0e5"
+    link: "https://www.apple.com/uk/shop/product/MY9D2ZM/A/40mm-california-poppy-leather-link-s-m"
     gift-idea: true
   - name: "Airpods Pro leather case"
     extra-details: "This is just an example; search around on Etsy for a nice one"
     price: 24.13
     purchased: false
-    link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=airpods+pro+leather&ref=sr_gallery-1-4&organic_search_click=1"
+    link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for"
     gift-idea: true   
  
 - list: "Making"
@@ -165,7 +165,7 @@
     extra-details: "40cm width, 30cm depth, 12cm height; walnut finish"
     price: 28.99
     purchased: false
-    link: "https://www.etsy.com/uk/listing/849777698/desk-organiser-pc-stand-laptop-stand?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=monitor+stand&ref=sr_gallery-1-3&organic_search_click=1&col=1&variation1=1519298034&variation0=1509535238"
+    link: "https://www.etsy.com/uk/listing/849777698/desk-organiser-pc-stand-laptop-stand"
     gift-idea: true
     
 - list: "Kitchen"
