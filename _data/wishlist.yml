@@ -28,7 +28,7 @@
     extra-details: "Nintendo Switch"
     price: 37.99
     purchased: false
-    link: "pending"
+    link: "https://www.amazon.co.uk/Legend-Zelda-Links-Awakening-Nintendo/dp/B07SMRLNJH"
     gift-idea: true
   - name: "Star Wars: Squadrons"
     extra-details: "PS4"
@@ -128,22 +128,22 @@
   - name: "Raspberry Pi High Quality Camera Module"
     price: 49.50
     purchased: false
-    link: "pending"
+    link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
     gift-idea: false
   - name: "Raspberry Pi High Quality Camera Lens"
     price: 25.00
     purchase: false
-    link: "pending"
+    link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
     gift-idea: false
   - name: "Adafruit IoT Pi Printer Project Pack"
     price: 106.00
     purchased: false
-    link: "pending"
+    link: "https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi"
     gift-idea: true
   - name: "Star Trek: Discovery 1/2500 scale model"
     price: 45.35
     purchased: false
-    link: "pending"
+    link: "https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/"
     gift-idea: true
   - name: "Raspberry Pi Zero W"
     price: 9.80
@@ -173,7 +173,7 @@
   - name: "Star Trek 'Enterprise' pizza cutter"
     price: 79.00
     purchased: false
-    link: "pending"
+    link: "https://www.amazon.co.uk/Thinkgeek-Star-Trek-Enterprise-Cutter/dp/B00J5HL9UO/"
     gift-idea: true
         
 - list: "Clothing"
