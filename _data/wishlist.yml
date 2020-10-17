@@ -66,6 +66,12 @@
     purchased: false
     link: "https://store.nintendo.co.uk/nintendo-switch-accessory/nintendo-switch-accessory-set/11396100.html"
     gift-idea: true
+  - name: "Analogue Pocket"
+    extra-details: "Black. Price in USD."
+    price: 199.99
+    purchased: false
+    link: "https://www.analogue.co/pocket/"
+    gift-idea: true
 
 - list: "Accessories"
   description: "These are just examples from Etsy; use them as inspiration."
@@ -117,7 +123,7 @@
     link: "https://www.apple.com/uk/shop/product/MY9D2ZM/A/40mm-california-poppy-leather-link-s-m"
     gift-idea: true
   - name: "Airpods Pro leather case"
-    extra-details: "This is just an example; search around on Etsy for a nice one"
+    extra-details: "This is just an example; search around for a nice one."
     price: 24.13
     purchased: false
     link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for"
@@ -271,3 +277,8 @@
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
     gift-idea: true
+  - name: "All metal, double-edge safety razor and blades"
+    extra-details: "Example linked; look around for a nice one."
+    price: 20.00
+    purchase: false
+    link: "https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/"
