@@ -121,6 +121,12 @@
     price: 24.13
     purchased: false
     link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for"
+    gift-idea: true
+  - name: "iPhone Leather Wallet with MagSafe"
+    extra-details: "Black"
+    price: 59.00
+    purchased: false
+    link: "https://www.apple.com/uk/shop/product/MHLR3/iphone-leather-wallet-with-magsafe-black"
     gift-idea: true   
  
 - list: "Making"
