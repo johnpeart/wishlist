@@ -134,7 +134,13 @@
     price: 59.00
     purchased: false
     link: "https://www.apple.com/uk/shop/product/MHLR3/iphone-leather-wallet-with-magsafe-black"
-    gift-idea: true   
+    gift-idea: true
+  - name: "MagSafe charger"
+    extra-details: "Black"
+    price: 39.00
+    purchased: true
+    link: "https://store.apple.com/uk/xc/product/MHXH3ZM/A"
+    gift-idea: true
  
 - list: "Making"
   items:
