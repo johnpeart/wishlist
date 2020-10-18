@@ -77,7 +77,7 @@
     price: 199.99
     purchased: false
     link: "https://www.analogue.co/pocket/"
-    gift-idea: true
+    gift-idea: false
 
 - list: "Accessories"
   description: "These are just examples from Etsy; use them as inspiration."
@@ -114,19 +114,13 @@
     extra-details: "44mm, Size 4, PRODUCT(RED)"
     price: 49.00
     purchased: false
-    link: "https://www.apple.com/uk/shop/product/MYNX2ZM/A/40mm-productred-solo-loop-size-1"
+    link: "https://www.apple.com/uk/shop/product/MYTK2ZM/A/44mm-productred-solo-loop-size-4"
     gift-idea: true
   - name: "Apple Watch Braided Solo Loop"
     extra-details: "44mm, Size 4, PRODUCT(RED)"
     price: 99.00
     purchased: false
-    link: "https://www.apple.com/uk/shop/product/MY7F2ZM/A/40mm-productred-braided-solo-loop-size-1"
-    gift-idea: true
-  - name: "Apple Watch Leather Link"
-    extra-details: "44mm, S-M, California Poppy Yellow"
-    price: 99.00
-    purchased: false
-    link: "https://store.apple.com/uk/xc/product/MY9P2ZM/A"
+    link: "https://www.apple.com/uk/shop/product/MY8W2ZM/A/44mm-productred-braided-solo-loop-size-4"
     gift-idea: true
   - name: "Airpods Pro leather case"
     extra-details: "This is just an example; search around for a nice one."
@@ -145,7 +139,7 @@
     price: 39.00
     purchased: true
     link: "https://store.apple.com/uk/xc/product/MHXH3ZM/A"
-    gift-idea: true
+    gift-idea: false
  
 - list: "Making"
   items:
