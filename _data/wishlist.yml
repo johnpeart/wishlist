@@ -25,11 +25,17 @@
 - list: "Games"
   items:
   - name: "Crash Bandicoot 4: It's About Time"
-    extra-details: "PS4"
+    extra-details: "PlayStation 4"
     price: 54.99
     purchased: false
     link: "https://www.amazon.co.uk/Crash-BandicootTM-About-Time-Tote/dp/B08CBNQ4YM/"
     gift-idea: false
+  - name: "Control"
+    extra-details: "Ultimate Edition; PlayStation 4"
+    price: 33.99
+    purchased: false
+    link: "https://www.amazon.co.uk/505-Games-CONTROLUEPlayStation 401-Control-Ultimate/dp/B08H9K6R64/"
+    gift-idea: true
   - name: "The Legend of Zelda: Link's Awakening"
     extra-details: "Nintendo Switch"
     price: 37.99
@@ -37,7 +43,7 @@
     link: "https://www.amazon.co.uk/Legend-Zelda-Links-Awakening-Nintendo/dp/B07SMRLNJH"
     gift-idea: true
   - name: "Star Wars: Squadrons"
-    extra-details: "PS4"
+    extra-details: "PlayStation 4"
     price: 29.99
     purchased: false
     link: "https://www.amazon.co.uk/Electronic-Arts-1077179-Star-Wars/dp/B08B6QBD53/"
@@ -53,7 +59,31 @@
     price: 49.99
     purchased: false
     link: "https://store.nintendo.co.uk/nintendo-switch-game/hyrule-warriors-age-of-calamity/12691877.html"
-    gift-idea: true
+    gift-idea: false
+  - name: "Immortals: Fenyx Rising"
+    extra-details: "PS5"
+    price: 51.99
+    purchased: false
+    link: "https://www.amazon.co.uk/Immortals-Fenyx-Rising-Limited-PS5/dp/B08HP3JHZ7"
+    gift-idea: false
+  - name: "Assassin's Creed Valhalla"
+    extra-details: "PS5"
+    price: 51.99
+    purchased: false
+    link: "https://www.amazon.co.uk/Assassins-Valhalla-Limited-Exclusive-Amazon-co-uk/dp/B08FC1R8C9"
+    gift-idea: false
+  - name: "Hitman III"
+    extra-details: "PS5"
+    price: 59.99
+    purchased: false
+    link: "https://www.amazon.co.uk/Square-Enix-SQEA46-UK-24ST-Hitman-III/dp/B08LF91C92"
+    gift-idea: false
+  - name: "Spider-Man: Miles Morales"
+    extra-details: "Ultimate Edition; PS5"
+    price: 69.99
+    purchased: false
+    link: "https://www.game.co.uk/en/marvels-spider-man-miles-morales-ultimate-edition-2836820"
+    gift-idea: false
     
 
 - list: "Consoles and accessories"
