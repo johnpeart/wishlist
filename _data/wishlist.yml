@@ -84,8 +84,13 @@
     purchased: false
     link: "https://www.game.co.uk/en/marvels-spider-man-miles-morales-ultimate-edition-2836820"
     gift-idea: false
+  - name: "Gotham Knights"
+    extra-details: "Release date in 2021; PS5"
+    price: 69.99
+    purchased: false
+    link: "https://www.game.co.uk/en/gotham-knights-2831090"
+    gift-idea: false
     
-
 - list: "Consoles and accessories"
   items:
   - name: "PlayStation 5"
