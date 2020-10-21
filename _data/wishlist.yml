@@ -42,6 +42,12 @@
     purchased: false
     link: "https://www.amazon.co.uk/Legend-Zelda-Links-Awakening-Nintendo/dp/B07SMRLNJH"
     gift-idea: true
+  - name: "Super Mario 3D World + Bowser's Fury"
+    extra-details: "Nintendo Switch"
+    price: 49.99
+    purchased: true
+    link: "https://www.amazon.co.uk/gp/product/B08HJXRB1K/"
+    gift-idea: false
   - name: "Star Wars: Squadrons"
     extra-details: "PlayStation 4"
     price: 29.99
