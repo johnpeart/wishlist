@@ -16,7 +16,7 @@
     link: "https://www.amazon.co.uk/BB-9E-App-Enabled-Droid-Trainer-Sphero-Black-Grey/dp/B0728CLPJY/"
     gift-idea: true
   - name: "Salt Apple TV remote"
-    extra-details: "Not sold in the UK; needs to be imported."
+    extra-details: "Not sold in the UK; needs to be imported"
     price: 40.00
     purchased: false
     link: "https://www.ebay.co.uk/itm/Salt-Apple-TV-Remote-Control-Alternative-Swiss-version/333578617307"
@@ -133,7 +133,7 @@
     gift-idea: false
 
 - list: "Accessories"
-  description: "These are just examples from Etsy; use them as inspiration."
+  description: "These are just examples from Etsy; use them as inspiration"
   items:
   - name: "Star Trek tie clip"
     price: 7.23
@@ -176,7 +176,7 @@
     link: "https://www.apple.com/uk/shop/product/MY8W2ZM/A/44mm-productred-braided-solo-loop-size-4"
     gift-idea: false
   - name: "Airpods Pro leather case"
-    extra-details: "This is just an example; search around for a nice one."
+    extra-details: "This is just an example; search around for a nice one"
     price: 24.13
     purchased: false
     link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for"
@@ -262,19 +262,19 @@
 - list: "Clothing"
   items:
   - name: "Crew neck t-shirts"
-    extra-details: "Size S. Example t-shirt linked."
+    extra-details: "Size S; example t-shirt linked"
     price: 0.00
     purchased: false
     link: "https://www.uniqlo.com/uk/en/product/men-100pct-supima-cotton-crew-neck-short-sleeved-t-shirt-422990.html?dwvar_422990_color=COL52&dwvar_422990_size=SMA002"
     gift-idea: true
   - name: "Polo shirts"
-    extra-details: "Size S; short sleeved. Example polo shirt linked."
+    extra-details: "Size S; short sleeved; example polo shirt linked"
     price: 19.90
     purchased: false
     link: "https://www.uniqlo.com/uk/en/product/men-dry-ex-polo-shirt-422962.html?dwvar_422962_color=COL03&dwvar_422962_size=SMA005"
     gift-idea: true
   - name: "Jersey polo shirts"
-    extra-details: "Size S; short sleeved. Example jersey shirt linked."
+    extra-details: "Size S; short sleeved; example jersey shirt linked"
     price: 19.90
     purchased: false
     link: "https://www.uniqlo.com/uk/en/product/men-airism-jersey-polo-shirt-425770.html?dwvar_425770_color=COL32&dwvar_425770_size=SMA002&cgid=IDm-polo-shirts"
@@ -286,7 +286,7 @@
     link: "https://www.uniqlo.com/uk/en/product/men-uniqlo-u-merino-blend-mock-neck-jumper-432922.html?dwvar_432922_color=COL34&dwvar_432922_size=SMA002"
     gift-idea: true
   - name: "Sports socks"
-    extra-details: "Size 10, low cut"
+    extra-details: "Size 10; low cut"
     price: 0.00
     purchased: false
     link: "https://www.uniqlo.com/uk/en/product/men-low-cut-socks-423538.html?dwvar_423538_color=COL65&dwvar_423538_size=MSC027&cgid=IDm-socks"
@@ -349,7 +349,7 @@
     link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
     gift-idea: true
   - name: "Double-edge, safety razor and blades"
-    extra-details: "Example linked; look around for a nice one."
+    extra-details: "Example linked; look around for a nice one"
     price: 20.00
     purchase: false
     link: "https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/"
