@@ -121,7 +121,7 @@
     gift-idea: false
   - name: "Playdate"
     extra-details: "Price in USD"
-    price: 149.99
+    price: 149.00
     purchased: false
     link: "https://play.date"
     gift-idea: false
@@ -228,7 +228,7 @@
   items:
   - name: "Monitor riser"
     extra-details: "40cm width, 30cm depth, 12cm height; walnut finish"
-    price: 28.99
+    price: 36.00
     purchased: false
     link: "https://www.etsy.com/uk/listing/849777698/desk-organiser-pc-stand-laptop-stand"
     gift-idea: true
@@ -239,6 +239,12 @@
     price: 79.00
     purchased: false
     link: "https://www.amazon.co.uk/Thinkgeek-Star-Trek-Enterprise-Cutter/dp/B00J5HL9UO/"
+    gift-idea: true
+  - name: "Le Creuset Stoneware Mug"
+    extra-details: "350ml; sating black finish"
+    price: 15.00
+    purchased: false
+    link: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
     gift-idea: true
         
 - list: "Clothing"
