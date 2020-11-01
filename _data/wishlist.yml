@@ -119,6 +119,12 @@
     purchased: false
     link: "https://www.analogue.co/pocket/"
     gift-idea: false
+  - name: "Playdate"
+    extra-details: "Price in USD"
+    price: 149.99
+    purchased: false
+    link: "https://play.date"
+    gift-idea: false
 
 - list: "Accessories"
   description: "These are just examples from Etsy; use them as inspiration."
