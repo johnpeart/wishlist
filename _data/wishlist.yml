@@ -21,6 +21,12 @@
     purchased: false
     link: "https://www.ebay.co.uk/itm/Salt-Apple-TV-Remote-Control-Alternative-Swiss-version/333578617307"
     gift-idea: false
+  - name: "Synology DS220+ NAS"
+    extra-details: "Price varies based on installed storage"
+    price: 600.00
+    purchased: false
+    link: "https://www.amazon.co.uk/Synology-DS220-Bay-NAS-Enclosure/dp/B08G8D74CD"
+    gift-idea: false
     
 - list: "Games"
   items:
@@ -168,12 +174,18 @@
     price: 99.00
     purchased: false
     link: "https://www.apple.com/uk/shop/product/MY8W2ZM/A/44mm-productred-braided-solo-loop-size-4"
-    gift-idea: true
+    gift-idea: false
   - name: "Airpods Pro leather case"
     extra-details: "This is just an example; search around for a nice one."
     price: 24.13
     purchased: false
     link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for"
+    gift-idea: true
+  - name: "Elago W4 Apple Watch stand"
+    extra-details: "Aqua Blue"
+    price: 13.99
+    purchased: false
+    link: "https://www.amazon.co.uk/elago-Stand-Charging-Dock-Aqua-Blue/dp/B06Y1ZLJG4/"
     gift-idea: true
   - name: "iPhone Leather Wallet with MagSafe"
     extra-details: "Black"
