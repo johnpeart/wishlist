@@ -354,19 +354,3 @@
     purchase: false
     link: "https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/"
     gift-idea: true
-  - name: "LEGO Art Star Wars The Sith"
-    extra-details: "Three pieces for a full set"
-    price: 114.99
-    purchase: false
-    link: "https://www.lego.com/en-gb/product/star-wars-the-sith-31200"
-    gift-idea: true
-  - name: "LEGO Stormtrooper helmet"
-    price: 54.99
-    purchase: false
-    link: "https://www.lego.com/en-gb/product/stormtrooper-helmet-75276"
-    gift-idea: true
-  - name: "LEGO TIE Fighter pilot helmet"
-    price: 54.99
-    purchase: false
-    link: "https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274"
-    gift-idea: true
