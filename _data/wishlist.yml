@@ -199,15 +199,6 @@
     purchased: true
     link: "https://store.apple.com/uk/xc/product/MHXH3ZM/A"
     gift-idea: false
-
-- list: "Furniture"
-  items:
-  - name: "Monitor riser"
-    extra-details: "40cm width, 30cm depth, 12cm height; walnut finish"
-    price: 36.00
-    purchased: false
-    link: "https://www.etsy.com/uk/listing/849777698/desk-organiser-pc-stand-laptop-stand"
-    gift-idea: true
   
 - list: "Kitchen"
   items:
@@ -262,7 +253,7 @@
     link: "https://www.uniqlo.com/uk/en/product/men-extra-fine-cotton-broadcloth-regular-fit-shirt-grandad-collar-425687.html?dwvar_425687_color=COL64&dwvar_425687_size=SMA002&cgid=IDalternate-styles2308&hassubcat=false"
     gift-idea: true
 
-- list: "Home"
+- list: "Furnishings"
   items:
   - name: "1984 pillow"
     extra-details: "Price in USD"
@@ -275,6 +266,12 @@
     price: 39.99
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
+    gift-idea: true
+  - name: "2007 pillow"
+    extra-details: "Price in USD"
+    price: 39.99
+    purchased: false
+    link: "https://throwboy.com/collections/throwboy-pillows/products/2007"
     gift-idea: true
   - name: "LEGO Art Star Wars The Sith"
     extra-details: "Three pieces for a full set"
@@ -292,6 +289,9 @@
     purchased: false
     link: "https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274"
     gift-idea: true
+
+- list: "Personal care"
+  items:
   - name: "Double-edge safety razor and blades"
     extra-details: "Example linked; look around for a nice one"
     price: 20.00
@@ -355,14 +355,20 @@
     purchased: false
     gift-idea: true
   
-- list: "Stationery"
+- list: "Office and stationery"
   items:
   - name: "Fountain pen"
     extra-details: "An all metal fountain pen with refillable ink"
     price: 0.00
     purchased: false
     gift-idea: true
-  
+  - name: "Monitor riser"
+    extra-details: "40cm width, 30cm depth, 12cm height; walnut finish"
+    price: 36.00
+    purchased: false
+    link: "https://www.etsy.com/uk/listing/849777698/desk-organiser-pc-stand-laptop-stand"
+    gift-idea: true
+
 - list: "Photography"
   items:
   - name: "Sony α7C"
