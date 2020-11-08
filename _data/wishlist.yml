@@ -27,7 +27,7 @@
     purchased: false
     link: "https://www.amazon.co.uk/Synology-DS220-Bay-NAS-Enclosure/dp/B08G8D74CD"
     gift-idea: false
-    
+  
 - list: "Games"
   items:
   - name: "Crash Bandicoot 4: It's About Time"
@@ -102,7 +102,7 @@
     purchased: false
     link: "https://www.game.co.uk/en/gotham-knights-2831090"
     gift-idea: false
-    
+  
 - list: "Consoles and accessories"
   items:
   - name: "PlayStation 5"
@@ -199,42 +199,6 @@
     purchased: true
     link: "https://store.apple.com/uk/xc/product/MHXH3ZM/A"
     gift-idea: false
- 
-- list: "Making"
-  items:
-  - name: "Raspberry Pi High Quality Camera Module"
-    price: 49.50
-    purchased: false
-    link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
-    gift-idea: false
-  - name: "Raspberry Pi High Quality Camera Lens"
-    price: 25.00
-    purchase: false
-    link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
-    gift-idea: false
-  - name: "Adafruit IoT Pi Printer Project Pack"
-    price: 106.00
-    purchased: false
-    link: "https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi"
-    gift-idea: true
-  - name: "Star Trek: Discovery 1/2500 scale model"
-    price: 45.35
-    purchased: false
-    link: "https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/"
-    gift-idea: true
-  - name: "Raspberry Pi Zero W"
-    price: 9.80
-    purchased: false
-    link: "https://thepihut.com/products/raspberry-pi-zero-w?src=raspberrypi"
-    gift-idea: false
-
-- list: "Stationery"
-  items:
-  - name: "Fountain pen"
-    extra-details: "An all metal fountain pen with refillable ink"
-    price: 0.00
-    purchased: false
-    gift-idea: true
 
 - list: "Furniture"
   items:
@@ -244,7 +208,7 @@
     purchased: false
     link: "https://www.etsy.com/uk/listing/849777698/desk-organiser-pc-stand-laptop-stand"
     gift-idea: true
-    
+  
 - list: "Kitchen"
   items:
   - name: "Star Trek 'Enterprise' pizza cutter"
@@ -253,12 +217,12 @@
     link: "https://www.amazon.co.uk/Thinkgeek-Star-Trek-Enterprise-Cutter/dp/B00J5HL9UO/"
     gift-idea: true
   - name: "Le Creuset Stoneware Mug"
-    extra-details: "350ml; sating black finish"
+    extra-details: "350ml; satin black finish"
     price: 15.00
     purchased: false
     link: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
     gift-idea: true
-        
+      
 - list: "Clothing"
   items:
   - name: "Crew neck t-shirts"
@@ -297,15 +261,72 @@
     purchased: false
     link: "https://www.uniqlo.com/uk/en/product/men-extra-fine-cotton-broadcloth-regular-fit-shirt-grandad-collar-425687.html?dwvar_425687_color=COL64&dwvar_425687_size=SMA002&cgid=IDalternate-styles2308&hassubcat=false"
     gift-idea: true
-    
-- list: "Photography"
+
+- list: "Home"
   items:
-  - name: "Sony α7C"
-    price: 2150.00
+  - name: "1984 pillow"
+    extra-details: "Price in USD"
+    price: 39.99
     purchased: false
-    link: "https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7c/buy/ilce-7cl"
+    link: "https://throwboy.com/collections/throwboy-pillows/products/1984"
+    gift-idea: true
+  - name: "1998 pillow"
+    extra-details: "Price in USD"
+    price: 39.99
+    purchased: false
+    link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
+    gift-idea: true
+  - name: "LEGO Art Star Wars The Sith"
+    extra-details: "Three pieces for a full set"
+    price: 114.99
+    purchased: false
+    link: "https://www.lego.com/en-gb/product/star-wars-the-sith-31200"
+    gift-idea: true
+  - name: "LEGO Stormtrooper helmet"
+    price: 54.99
+    purchased: false
+    link: "https://www.lego.com/en-gb/product/stormtrooper-helmet-75276"
+    gift-idea: true
+  - name: "LEGO TIE Fighter pilot helmet"
+    price: 54.99
+    purchased: false
+    link: "https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274"
+    gift-idea: true
+  - name: "Double-edge safety razor and blades"
+    extra-details: "Example linked; look around for a nice one"
+    price: 20.00
+    purchased: false
+    link: "https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/"
+    gift-idea: true
+
+- list: "Making"
+  items:
+  - name: "Raspberry Pi High Quality Camera Module"
+    price: 49.50
+    purchased: false
+    link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
     gift-idea: false
-    
+  - name: "Raspberry Pi High Quality Camera Lens"
+    price: 25.00
+    purchased: false
+    link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
+    gift-idea: false
+  - name: "Adafruit IoT Pi Printer Project Pack"
+    price: 106.00
+    purchased: false
+    link: "https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi"
+    gift-idea: true
+  - name: "Star Trek: Discovery 1/2500 scale model"
+    price: 45.35
+    purchased: false
+    link: "https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/"
+    gift-idea: true
+  - name: "Raspberry Pi Zero W"
+    price: 9.80
+    purchased: false
+    link: "https://thepihut.com/products/raspberry-pi-zero-w?src=raspberrypi"
+    gift-idea: false
+  
 - list: "Music"
   items:
   - name: "Eurovision Song Contest 2012 album"
@@ -333,24 +354,19 @@
     price: 0.00
     purchased: false
     gift-idea: true
-    
-- list: "Home"
+  
+- list: "Stationery"
   items:
-  - name: "1984 pillow"
-    extra-details: "Price in USD"
-    price: 39.99
+  - name: "Fountain pen"
+    extra-details: "An all metal fountain pen with refillable ink"
+    price: 0.00
     purchased: false
-    link: "https://throwboy.com/collections/throwboy-pillows/products/1984"
     gift-idea: true
-  - name: "1998 pillow"
-    extra-details: "Price in USD"
-    price: 39.99
+  
+- list: "Photography"
+  items:
+  - name: "Sony α7C"
+    price: 2150.00
     purchased: false
-    link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
-    gift-idea: true
-  - name: "Double-edge, safety razor and blades"
-    extra-details: "Example linked; look around for a nice one"
-    price: 20.00
-    purchase: false
-    link: "https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/"
-    gift-idea: true
+    link: "https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7c/buy/ilce-7cl"
+    gift-idea: false
