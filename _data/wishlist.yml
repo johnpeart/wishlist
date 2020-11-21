@@ -322,9 +322,14 @@
     link: "https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/"
     gift-idea: true
   - name: "Raspberry Pi Zero W"
-    price: 9.80
+    price: 13.50
     purchased: false
-    link: "https://thepihut.com/products/raspberry-pi-zero-w?src=raspberrypi"
+    link: "https://thepihut.com/products/raspberry-pi-zero-wh-with-pre-soldered-header"
+    gift-idea: false
+  - name: "Pimoroni Inky Impression epaper display"
+    price: 66.00
+    purchased: false
+    link: "https://shop.pimoroni.com/products/inky-impression"
     gift-idea: false
   
 - list: "Music"
