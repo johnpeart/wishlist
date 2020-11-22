@@ -315,12 +315,12 @@
     price: 106.00
     purchased: false
     link: "https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi"
-    gift-idea: true
+    gift-idea: false
   - name: "Star Trek: Discovery 1/2500 scale model"
     price: 45.35
     purchased: false
     link: "https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/"
-    gift-idea: true
+    gift-idea: false
   - name: "Raspberry Pi Zero W"
     price: 13.50
     purchased: false
