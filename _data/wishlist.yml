@@ -289,6 +289,12 @@
     purchased: false
     link: "https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274"
     gift-idea: true
+  - name: "Steel coffee table"
+    extra-details: "I would want something in a 'natural steel' colour, rather than the 'white steel' style shown"
+    price: 379.00
+    purchased: false
+    link: "https://www.etsy.com/uk/listing/873944219/"
+    gift-idea: false
 
 - list: "Personal care"
   items:
