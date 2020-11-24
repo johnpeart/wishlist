@@ -367,12 +367,6 @@
     price: 0.00
     purchased: false
     gift-idea: true
-  - name: "Monitor riser"
-    extra-details: "40cm width, 30cm depth, 12cm height; walnut finish"
-    price: 36.00
-    purchased: false
-    link: "https://www.etsy.com/uk/listing/849777698/desk-organiser-pc-stand-laptop-stand"
-    gift-idea: true
 
 - list: "Photography"
   items:
