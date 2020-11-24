@@ -367,7 +367,11 @@
     price: 0.00
     purchased: false
     gift-idea: true
-
+  - name: "Monitor stand riser"
+    price: 94.99
+    purchased: true
+    gift-idea: true
+    
 - list: "Photography"
   items:
   - name: "Sony α7C"
