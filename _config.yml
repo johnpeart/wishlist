@@ -43,6 +43,10 @@ github-handle:  "johnpeart"
 google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
 google-analytics: "UA-27553664-1" # GA ID code
 
+# Site header
+
+header: false
+
 # Plugins and build settings
 
 permalink: pretty
