@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512" width="512" height="512">
-  <defs>
-    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#009fe3"/>
-      <stop offset=".7592921" stop-color="#008df2"/>
-      <stop offset="1" stop-color="#007aff"/>
-    </linearGradient>
-    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(133.66068 467.8979) rotate(-60) scale(489.3573)"/>
-  </defs>
-  <metadata> Produced by OmniGraffle 7.17.5\n2020-09-19 20:21:10 +0000</metadata>
-  <g id="wishlist-favicon-large-png" stroke="none" stroke-opacity="1" fill="none" stroke-dasharray="none" fill-opacity="1">
-    <title>wishlist-favicon-large-png</title>
-    <g id="wishlist-favicon-large-png_Layer_1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 32 32" width="32" height="32">
+  <defs/>
+  <metadata> Produced by OmniGraffle 7.18\n2020-12-06 15:38:49 +0000</metadata>
+  <g id="wishlist-favicon" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill-opacity="1">
+    <title>wishlist-favicon</title>
+    <g id="wishlist-favicon_Layer_1">
       <title>Layer 1</title>
       <g id="Graphic_63">
-        <path d="M 238.22715 132.01325 L 184.99738 226.7885 L 78.411855 248.12586 L 152.09957 328.03754 L 139.45587 436 L 238.22715 390.6129 L 336.99843 436 L 324.35473 328.03754 L 398.04244 248.12586 L 291.45692 226.7885 Z M 336.25033 76 L 322.9429 99.69381 L 296.2965 105.02815 L 314.71844 125.00607 L 311.5575 151.99669 L 336.25033 140.64991 L 360.94315 151.99669 L 357.78223 125.00607 L 376.20416 105.02815 L 349.55778 99.69381 Z M 406.2669 132.01325 L 397.39526 147.80912 L 379.631 151.36535 L 391.9123 164.68396 L 389.805 182.6777 L 406.2669 175.11319 L 422.72877 182.6777 L 420.6215 164.68396 L 432.90277 151.36535 L 415.1385 147.80912 Z M 420.2702 76 L 415.8344 83.89794 L 406.95226 85.67605 L 413.0929 92.33536 L 412.03926 101.33223 L 420.2702 97.54997 L 428.50114 101.33223 L 427.4475 92.33536 L 433.58815 85.67605 L 424.706 83.89794 Z" fill="url(#Obj_Gradient)"/>
+        <path d="M 16 .5 L 20.909919 9.242077 L 30.741376 11.210237 L 23.944415 18.581297 L 25.11067 28.539763 L 16 24.353253 L 6.889329 28.539763 L 8.055585 18.581297 L 1.258624 11.210237 L 11.090081 9.242077 Z" fill="#009fe3"/>
       </g>
     </g>
   </g>
