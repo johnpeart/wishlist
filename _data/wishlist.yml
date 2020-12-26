@@ -140,15 +140,9 @@
     purchased: false
     link: "https://www.etsy.com/uk/listing/219786152/super-tie-clip-26-styles-superman"
     gift-idea: true
-  - name: "LEGO tie clip"
-    price: 11.95
-    purchased: false
-    link: "https://www.etsy.com/uk/listing/171135978/chrome-silver-tie-slide-tie-clip"
-    gift-idea: true
-  - name: "LEGO cufflinks"
+  - name: "LEGO cufflinks and tie clip"
     price: 23.99
-    purchased: false
-    link: "https://www.etsy.com/uk/listing/737844169/silver-square-lego-like-building-block"
+    purchased: true
     gift-idea: true
   - name: "Heatsink cufflinks"
     price: 8.00
@@ -178,13 +172,13 @@
   - name: "Airpods Pro leather case"
     extra-details: "This is just an example; search around for a nice one"
     price: 24.13
-    purchased: false
+    purchased: true
     link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for"
     gift-idea: true
   - name: "Elago W4 Apple Watch stand"
     extra-details: "Aqua Blue"
     price: 13.99
-    purchased: false
+    purchased: true
     link: "https://www.amazon.co.uk/elago-Stand-Charging-Dock-Aqua-Blue/dp/B06Y1ZLJG4/"
     gift-idea: true
   - name: "iPhone Leather Wallet with MagSafe"
@@ -321,12 +315,12 @@
     price: 106.00
     purchased: false
     link: "https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi"
-    gift-idea: false
+    gift-idea: true
   - name: "Star Trek: Discovery 1/2500 scale model"
     price: 45.35
     purchased: false
     link: "https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/"
-    gift-idea: false
+    gift-idea: true
   - name: "Raspberry Pi Zero W"
     price: 13.50
     purchased: false
@@ -334,7 +328,7 @@
     gift-idea: false
   - name: "Pimoroni Inky Impression epaper display"
     price: 66.00
-    purchased: false
+    purchased: true
     link: "https://shop.pimoroni.com/products/inky-impression"
     gift-idea: false
   
