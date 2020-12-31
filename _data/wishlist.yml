@@ -57,7 +57,7 @@
   - name: "Star Wars: Squadrons"
     extra-details: "PlayStation 4"
     price: 29.99
-    purchased: false
+    purchased: true
     link: "https://www.amazon.co.uk/Electronic-Arts-1077179-Star-Wars/dp/B08B6QBD53/"
     gift-idea: true
   - name: "Watch Dogs Legion"
@@ -284,7 +284,6 @@
     link: "https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274"
     gift-idea: true
   - name: "Steel coffee table"
-    extra-details: "I would want something in a 'natural steel' colour, rather than the 'white steel' style shown"
     price: 379.00
     purchased: false
     link: "https://www.etsy.com/uk/listing/873944219/"
