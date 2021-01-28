@@ -5,16 +5,6 @@
     purchased: false
     link: "https://www.amazon.co.uk/dp/B089XZ5DZZ/ref=cm_sw_em_r_mt_dp_UnhJFbB9B1YPW"
     gift-idea: true
-  - name: "Sphero R2D2"
-    price: 79.99
-    purchased: false
-    link: "https://www.amazon.co.uk/Sphero-R201ROW-App-Enabled-Action-Figure/dp/B071LLZKG7/"
-    gift-idea: true
-  - name: "Sphero BB9E"
-    price: 85.99
-    purchased: false
-    link: "https://www.amazon.co.uk/BB-9E-App-Enabled-Droid-Trainer-Sphero-Black-Grey/dp/B0728CLPJY/"
-    gift-idea: true
   - name: "Salt Apple TV remote"
     extra-details: "Not sold in the UK; needs to be imported"
     price: 40.00
@@ -39,7 +29,7 @@
   - name: "Control"
     extra-details: "Ultimate Edition; PlayStation 4"
     price: 33.99
-    purchased: false
+    purchased: true
     link: "https://www.amazon.co.uk/505-Games-CONTROLUEPlayStation 401-Control-Ultimate/dp/B08H9K6R64/"
     gift-idea: true
   - name: "The Legend of Zelda: Link's Awakening"
