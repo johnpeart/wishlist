@@ -320,7 +320,28 @@
     purchased: true
     link: "https://shop.pimoroni.com/products/inky-impression"
     gift-idea: false
-  
+  - name: "Raspberry Pi Pico"
+    price: 3.90
+    purchased: false
+    link: "https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227"
+    gift-idea: false
+  - name: "Pimoroni Keybow 2040"
+    extra-details: "With “clicky” keys"
+    price: 3.90
+    purchased: false
+    link: "https://shop.pimoroni.com/products/keybow-2040?variant=32399559589971"
+    gift-idea: true
+  - name: "Pimoroni Pico Unicorn Pack"
+    price: 19.80
+    purchased: false
+    link: "https://shop.pimoroni.com/products/pico-unicorn-pack"
+    gift-idea: false
+  - name: "Picade 10-inch Display Upgrade Kit"
+    price: 99.90
+    purchased: false
+    link: "https://shop.pimoroni.com/products/picade-10-inch-display-upgrade-kit"
+    gift-idea: true
+    
 - list: "Music"
   items:
   - name: "Eurovision Song Contest 2012 album"
