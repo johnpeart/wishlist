@@ -105,10 +105,10 @@
     price: 449.00
     purchased: false
     gift-idea: false
-  - name: "Nintendo Switch Wireless Controller"
+  - name: "Nintendo Switch Wireless Pro Controller"
     price: 44.99
     purchased: false
-    link: "https://store.nintendo.co.uk/nintendo-switch-accessory/nintendo-switch-wireless-controller-super-mario/12615005.html"
+    link: "https://www.amazon.co.uk/gp/product/B01N4ND1T2/"
     gift-idea: true
   - name: "Nintendo Switch Accessory Set"
     price: 16.99
