@@ -183,6 +183,12 @@
     purchased: true
     link: "https://store.apple.com/uk/xc/product/MHXH3ZM/A"
     gift-idea: false
+  - name: "Elago MS3 charging stand"
+    extra-details: "Silver"
+    price: 23.99
+    purchased: true
+    link: "https://www.amazon.co.uk/elago-Charging-Compatible-MagSafe-Charger-Silver/dp/B08TBQ6CPN"
+    gift-idea: true
   
 - list: "Kitchen"
   items:
@@ -327,7 +333,7 @@
     gift-idea: false
   - name: "Pimoroni Keybow 2040"
     extra-details: "With “clicky” keys"
-    price: 3.90
+    price: 49.50
     purchased: false
     link: "https://shop.pimoroni.com/products/keybow-2040?variant=32399559589971"
     gift-idea: true
