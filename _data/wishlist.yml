@@ -306,12 +306,12 @@
     price: 49.50
     purchased: false
     link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
-    gift-idea: false
+    gift-idea: true
   - name: "Raspberry Pi High Quality Camera Lens"
     price: 25.00
     purchased: false
     link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
-    gift-idea: false
+    gift-idea: true
   - name: "Adafruit IoT Pi Printer Project Pack"
     price: 106.00
     purchased: false
@@ -326,7 +326,7 @@
     price: 13.50
     purchased: false
     link: "https://thepihut.com/products/raspberry-pi-zero-wh-with-pre-soldered-header"
-    gift-idea: false
+    gift-idea: true
   - name: "Pimoroni Inky Impression epaper display"
     price: 66.00
     purchased: true
@@ -336,7 +336,7 @@
     price: 3.90
     purchased: false
     link: "https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227"
-    gift-idea: false
+    gift-idea: true
   - name: "Pimoroni Keybow 2040"
     extra-details: "With “clicky” keys"
     price: 49.50
