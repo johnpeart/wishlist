@@ -192,7 +192,7 @@
   - name: "Elago MS3 charging stand"
     extra-details: "Silver"
     price: 23.99
-    purchased: true
+    purchased: false
     link: "https://www.amazon.co.uk/elago-Charging-Compatible-MagSafe-Charger-Silver/dp/B08TBQ6CPN"
     gift-idea: true
   
