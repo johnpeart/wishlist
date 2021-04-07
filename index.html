@@ -4,8 +4,8 @@
   <head prefix="og: http://ogp.me/ns#">
 	
 	<!--    SITE BUILD INFORMATION    -->
-<!--    Date built:    2021-04-01    -->
-<!--    Time built:    02:39    -->
+<!--    Date built:    2021-04-07    -->
+<!--    Time built:    19:46    -->
 <!--    Site URL:    https://wishlist.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -37,11 +37,11 @@
 	
 	<!-- Gives information about the author -->
 	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
-<link rel="me" href="https://www.linkedin.com/in/jrpeart" type="text/html">
-<link rel="me" href="https://github.com/johnpeart" type="text/html">
-<link rel="me" href="https://www.flickr.com/photos/johnpeart" type="text/html">
-<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
 
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
 	
 	<!-- Facebook Open Graph settings -->
 	<meta property="og:url" 				content="https://wishlist.johnpe.art/">
@@ -124,23 +124,28 @@
 </a>
 
 
-  	<header id="site-header">
-	
-	<nav role="navigation" class="container">
-		<div class="header-align-left">
-			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
-		</div>
+  	
+
+
+<header id="site-header">
+	<nav id="header--site-nav" role="navigation" class="container">
+		
+		<p id="header--wordmark">
+			<a class="wordmark" href="//www.johnpe.art" title="Go to the home page">J<span class="wordmark-hidden">ohn </span>P<span class="wordmark-hidden">eart</span></a>
+			<a class="site-title" href="https://wishlist.johnpe.art" title="Go to the main Wishlist page">Wishlist</a>
+		</p>
+		
+		
 		
 		
 	</nav>
-	
 </header>
 
 <main id="content" class="container">
 				
 	<section id="page-content">
 
-		<h1 class="site-heading">Wishlist</h1>
+		<h1 class="page-title">Wishlist</h1>
 		
 		<aside class="intro-text">
 			
@@ -150,6 +155,21 @@
 
 			
 		</aside>
+		
+		<fieldset id="toggle-purchased">
+			<legend>Toggle purchased items</legend>
+			
+			<div class="radio-input">
+				<input type="radio" name="toggle-purchased" id="show-purchased" value="show">
+				<label for="show-purchased">Show</label>
+			</div>
+			
+			<div class="radio-input">
+				<input type="radio" name="toggle-purchased" id="hide-purchased" value="hide" checked>
+				<label for="hide-purchased">Hide</label>
+			</div>
+			
+		</fieldset>
 
 		
 		
@@ -168,7 +188,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.etsy.com/uk/listing/219786152/super-tie-clip-26-styles-superman" target="_blank" rel="noopener noreferrer">Star Trek tie clip</a></span>
+						<p class="item-name"><a href="https://www.etsy.com/uk/listing/219786152/super-tie-clip-26-styles-superman" class="item-link" target="_blank" rel="noopener noreferrer">Star Trek tie clip</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -187,7 +207,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.etsy.com/uk/listing/223531692/copper-heatsink-cufflinks-raspberry-pi" target="_blank" rel="noopener noreferrer">Heatsink cufflinks</a></span>
+						<p class="item-name"><a href="https://www.etsy.com/uk/listing/223531692/copper-heatsink-cufflinks-raspberry-pi" class="item-link" target="_blank" rel="noopener noreferrer">Heatsink cufflinks</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -206,7 +226,7 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name">LEGO cufflinks and tie clip</span>
+						<p class="item-name">LEGO cufflinks and tie clip</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -223,7 +243,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.etsy.com/uk/listing/782748632/star-wars-tie-millennium-falcon-necktie" target="_blank" rel="noopener noreferrer">Star Wars Millenium Falcon silk tie</a></span>
+						<p class="item-name"><a href="https://www.etsy.com/uk/listing/782748632/star-wars-tie-millennium-falcon-necktie" class="item-link" target="_blank" rel="noopener noreferrer">Star Wars Millenium Falcon silk tie</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -257,9 +277,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/elago-Stand-Charging-Dock-Aqua-Blue/dp/B06Y1ZLJG4/" target="_blank" rel="noopener noreferrer">Elago W4 Apple Watch stand</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/elago-Stand-Charging-Dock-Aqua-Blue/dp/B06Y1ZLJG4/" class="item-link" target="_blank" rel="noopener noreferrer">Elago W4 Apple Watch stand</a></p>
 						
-						<span class="item-extradetails">Aqua Blue</span>
+						<p class="item-extradetails">Aqua Blue</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -276,9 +296,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/elago-Charging-Compatible-MagSafe-Charger-Silver/dp/B08TBQ6CPN" target="_blank" rel="noopener noreferrer">Elago MS3 charging stand</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/elago-Charging-Compatible-MagSafe-Charger-Silver/dp/B08TBQ6CPN" class="item-link" target="_blank" rel="noopener noreferrer">Elago MS3 charging stand</a></p>
 						
-						<span class="item-extradetails">Silver</span>
+						<p class="item-extradetails">Silver</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -297,9 +317,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for" target="_blank" rel="noopener noreferrer">Airpods Pro leather case</a></span>
+						<p class="item-name"><a href="https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for" class="item-link" target="_blank" rel="noopener noreferrer">Airpods Pro leather case</a></p>
 						
-						<span class="item-extradetails">This is just an example; search around for a nice one</span>
+						<p class="item-extradetails">This is just an example; search around for a nice one</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -316,9 +336,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://store.apple.com/uk/xc/product/MHXH3ZM/A" target="_blank" rel="noopener noreferrer">MagSafe charger</a></span>
+						<p class="item-name"><a href="https://store.apple.com/uk/xc/product/MHXH3ZM/A" class="item-link" target="_blank" rel="noopener noreferrer">MagSafe charger</a></p>
 						
-						<span class="item-extradetails">I need several more of these</span>
+						<p class="item-extradetails">I need several more of these</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -335,9 +355,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.apple.com/uk/shop/product/MYTK2ZM/A/44mm-productred-solo-loop-size-4" target="_blank" rel="noopener noreferrer">Apple Watch Sport Loop</a></span>
+						<p class="item-name"><a href="https://www.apple.com/uk/shop/product/MYTK2ZM/A/44mm-productred-solo-loop-size-4" class="item-link" target="_blank" rel="noopener noreferrer">Apple Watch Sport Loop</a></p>
 						
-						<span class="item-extradetails">44mm, Size 4, PRODUCT(RED)</span>
+						<p class="item-extradetails">44mm, Size 4, PRODUCT(RED)</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -356,9 +376,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.apple.com/uk/shop/product/MHLR3/iphone-leather-wallet-with-magsafe-black" target="_blank" rel="noopener noreferrer">iPhone Leather Wallet with MagSafe</a></span>
+						<p class="item-name"><a href="https://www.apple.com/uk/shop/product/MHLR3/iphone-leather-wallet-with-magsafe-black" class="item-link" target="_blank" rel="noopener noreferrer">iPhone Leather Wallet with MagSafe</a></p>
 						
-						<span class="item-extradetails">Black</span>
+						<p class="item-extradetails">Black</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -377,9 +397,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.apple.com/uk/shop/product/MY8W2ZM/A/44mm-productred-braided-solo-loop-size-4" target="_blank" rel="noopener noreferrer">Apple Watch Braided Solo Loop</a></span>
+						<p class="item-name"><a href="https://www.apple.com/uk/shop/product/MY8W2ZM/A/44mm-productred-braided-solo-loop-size-4" class="item-link" target="_blank" rel="noopener noreferrer">Apple Watch Braided Solo Loop</a></p>
 						
-						<span class="item-extradetails">44mm, Size 4, PRODUCT(RED)</span>
+						<p class="item-extradetails">44mm, Size 4, PRODUCT(RED)</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -411,30 +431,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-100pct-supima-cotton-crew-neck-short-sleeved-t-shirt-422990.html?dwvar_422990_color=COL52&dwvar_422990_size=SMA002" target="_blank" rel="noopener noreferrer">Crew neck t-shirts</a></span>
+						<p class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-100pct-supima-cotton-crew-neck-short-sleeved-t-shirt-422990.html?dwvar_422990_color=COL52&dwvar_422990_size=SMA002" class="item-link" target="_blank" rel="noopener noreferrer">Crew neck t-shirts</a></p>
 						
-						<span class="item-extradetails">Size S; example t-shirt linked</span>
-						
-					</div>
-					<aside class="item-metadata">
-						
-						<span class="item-giftidea">Gift idea</span>
-						
-						
-						<span class="item-price">Varies</span>
-						
-					</aside>
-				</li>
-				
-				
-			
-				
-				
-				<li class="wishlist-item">
-					<div class="item-info">
-						<span class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-low-cut-socks-423538.html?dwvar_423538_color=COL65&dwvar_423538_size=MSC027&cgid=IDm-socks" target="_blank" rel="noopener noreferrer">Sports socks</a></span>
-						
-						<span class="item-extradetails">Size 10; low cut</span>
+						<p class="item-extradetails">Size S; example t-shirt linked</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -453,9 +452,30 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-dry-ex-polo-shirt-422962.html?dwvar_422962_color=COL03&dwvar_422962_size=SMA005" target="_blank" rel="noopener noreferrer">Polo shirts</a></span>
+						<p class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-low-cut-socks-423538.html?dwvar_423538_color=COL65&dwvar_423538_size=MSC027&cgid=IDm-socks" class="item-link" target="_blank" rel="noopener noreferrer">Sports socks</a></p>
 						
-						<span class="item-extradetails">Size S; short sleeved; example polo shirt linked</span>
+						<p class="item-extradetails">Size 10; low cut</p>
+						
+					</div>
+					<aside class="item-metadata">
+						
+						<span class="item-giftidea">Gift idea</span>
+						
+						
+						<span class="item-price">Varies</span>
+						
+					</aside>
+				</li>
+				
+				
+			
+				
+				
+				<li class="wishlist-item">
+					<div class="item-info">
+						<p class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-dry-ex-polo-shirt-422962.html?dwvar_422962_color=COL03&dwvar_422962_size=SMA005" class="item-link" target="_blank" rel="noopener noreferrer">Polo shirts</a></p>
+						
+						<p class="item-extradetails">Size S; short sleeved; example polo shirt linked</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -474,9 +494,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-airism-jersey-polo-shirt-425770.html?dwvar_425770_color=COL32&dwvar_425770_size=SMA002&cgid=IDm-polo-shirts" target="_blank" rel="noopener noreferrer">Jersey polo shirts</a></span>
+						<p class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-airism-jersey-polo-shirt-425770.html?dwvar_425770_color=COL32&dwvar_425770_size=SMA002&cgid=IDm-polo-shirts" class="item-link" target="_blank" rel="noopener noreferrer">Jersey polo shirts</a></p>
 						
-						<span class="item-extradetails">Size S; short sleeved; example jersey shirt linked</span>
+						<p class="item-extradetails">Size S; short sleeved; example jersey shirt linked</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -495,9 +515,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-extra-fine-cotton-broadcloth-regular-fit-shirt-grandad-collar-425687.html?dwvar_425687_color=COL64&dwvar_425687_size=SMA002&cgid=IDalternate-styles2308&hassubcat=false" target="_blank" rel="noopener noreferrer">Grandad collar shirts</a></span>
+						<p class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-extra-fine-cotton-broadcloth-regular-fit-shirt-grandad-collar-425687.html?dwvar_425687_color=COL64&dwvar_425687_size=SMA002&cgid=IDalternate-styles2308&hassubcat=false" class="item-link" target="_blank" rel="noopener noreferrer">Grandad collar shirts</a></p>
 						
-						<span class="item-extradetails">Size S</span>
+						<p class="item-extradetails">Size S</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -516,9 +536,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-uniqlo-u-merino-blend-mock-neck-jumper-432922.html?dwvar_432922_color=COL34&dwvar_432922_size=SMA002" target="_blank" rel="noopener noreferrer">Mock neck jumpers</a></span>
+						<p class="item-name"><a href="https://www.uniqlo.com/uk/en/product/men-uniqlo-u-merino-blend-mock-neck-jumper-432922.html?dwvar_432922_color=COL34&dwvar_432922_size=SMA002" class="item-link" target="_blank" rel="noopener noreferrer">Mock neck jumpers</a></p>
 						
-						<span class="item-extradetails">Size S</span>
+						<p class="item-extradetails">Size S</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -552,7 +572,7 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://store.nintendo.co.uk/nintendo-switch-accessory/nintendo-switch-accessory-set/11396100.html" target="_blank" rel="noopener noreferrer">Nintendo Switch Accessory Set</a></span>
+						<p class="item-name"><a href="https://store.nintendo.co.uk/nintendo-switch-accessory/nintendo-switch-accessory-set/11396100.html" class="item-link" target="_blank" rel="noopener noreferrer">Nintendo Switch Accessory Set</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -569,7 +589,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/gp/product/B01N4ND1T2/" target="_blank" rel="noopener noreferrer">Nintendo Switch Wireless Pro Controller</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/gp/product/B01N4ND1T2/" class="item-link" target="_blank" rel="noopener noreferrer">Nintendo Switch Wireless Pro Controller</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -588,9 +608,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://play.date" target="_blank" rel="noopener noreferrer">Playdate</a></span>
+						<p class="item-name"><a href="https://play.date" class="item-link" target="_blank" rel="noopener noreferrer">Playdate</a></p>
 						
-						<span class="item-extradetails">Price in USD</span>
+						<p class="item-extradetails">Price in USD</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -607,9 +627,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.analogue.co/pocket/" target="_blank" rel="noopener noreferrer">Analogue Pocket</a></span>
+						<p class="item-name"><a href="https://www.analogue.co/pocket/" class="item-link" target="_blank" rel="noopener noreferrer">Analogue Pocket</a></p>
 						
-						<span class="item-extradetails">Price in USD</span>
+						<p class="item-extradetails">Price in USD</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -626,7 +646,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name">PlayStation 5</span>
+						<p class="item-name">PlayStation 5</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -658,30 +678,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://throwboy.com/collections/throwboy-pillows/products/1984" target="_blank" rel="noopener noreferrer">1984 pillow</a></span>
+						<p class="item-name"><a href="https://throwboy.com/collections/throwboy-pillows/products/1984" class="item-link" target="_blank" rel="noopener noreferrer">1984 pillow</a></p>
 						
-						<span class="item-extradetails">Price in USD</span>
-						
-					</div>
-					<aside class="item-metadata">
-						
-						<span class="item-giftidea">Gift idea</span>
-						
-						
-						<span class="item-price">£40</span>
-						
-					</aside>
-				</li>
-				
-				
-			
-				
-				
-				<li class="wishlist-item">
-					<div class="item-info">
-						<span class="item-name"><a href="https://throwboy.com/collections/throwboy-pillows/products/1998" target="_blank" rel="noopener noreferrer">1998 pillow</a></span>
-						
-						<span class="item-extradetails">Price in USD</span>
+						<p class="item-extradetails">Price in USD</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -700,9 +699,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://throwboy.com/collections/throwboy-pillows/products/2007" target="_blank" rel="noopener noreferrer">2007 pillow</a></span>
+						<p class="item-name"><a href="https://throwboy.com/collections/throwboy-pillows/products/1998" class="item-link" target="_blank" rel="noopener noreferrer">1998 pillow</a></p>
 						
-						<span class="item-extradetails">Price in USD</span>
+						<p class="item-extradetails">Price in USD</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -721,7 +720,28 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.lego.com/en-gb/product/stormtrooper-helmet-75276" target="_blank" rel="noopener noreferrer">LEGO Stormtrooper helmet</a></span>
+						<p class="item-name"><a href="https://throwboy.com/collections/throwboy-pillows/products/2007" class="item-link" target="_blank" rel="noopener noreferrer">2007 pillow</a></p>
+						
+						<p class="item-extradetails">Price in USD</p>
+						
+					</div>
+					<aside class="item-metadata">
+						
+						<span class="item-giftidea">Gift idea</span>
+						
+						
+						<span class="item-price">£40</span>
+						
+					</aside>
+				</li>
+				
+				
+			
+				
+				
+				<li class="wishlist-item">
+					<div class="item-info">
+						<p class="item-name"><a href="https://www.lego.com/en-gb/product/stormtrooper-helmet-75276" class="item-link" target="_blank" rel="noopener noreferrer">LEGO Stormtrooper helmet</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -740,7 +760,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274" target="_blank" rel="noopener noreferrer">LEGO TIE Fighter pilot helmet</a></span>
+						<p class="item-name"><a href="https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274" class="item-link" target="_blank" rel="noopener noreferrer">LEGO TIE Fighter pilot helmet</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -759,9 +779,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.lego.com/en-gb/product/star-wars-the-sith-31200" target="_blank" rel="noopener noreferrer">LEGO Art Star Wars The Sith</a></span>
+						<p class="item-name"><a href="https://www.lego.com/en-gb/product/star-wars-the-sith-31200" class="item-link" target="_blank" rel="noopener noreferrer">LEGO Art Star Wars The Sith</a></p>
 						
-						<span class="item-extradetails">Three pieces for a full set</span>
+						<p class="item-extradetails">Three pieces for a full set</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -780,7 +800,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.etsy.com/uk/listing/873944219/" target="_blank" rel="noopener noreferrer">Steel coffee table</a></span>
+						<p class="item-name"><a href="https://www.etsy.com/uk/listing/873944219/" class="item-link" target="_blank" rel="noopener noreferrer">Steel coffee table</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -812,9 +832,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.ebay.co.uk/itm/Salt-Apple-TV-Remote-Control-Alternative-Swiss-version/333578617307" target="_blank" rel="noopener noreferrer">Salt Apple TV remote</a></span>
+						<p class="item-name"><a href="https://www.ebay.co.uk/itm/Salt-Apple-TV-Remote-Control-Alternative-Swiss-version/333578617307" class="item-link" target="_blank" rel="noopener noreferrer">Salt Apple TV remote</a></p>
 						
-						<span class="item-extradetails">Not sold in the UK; needs to be imported</span>
+						<p class="item-extradetails">Not sold in the UK; needs to be imported</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -831,7 +851,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/dp/B089XZ5DZZ/ref=cm_sw_em_r_mt_dp_UnhJFbB9B1YPW" target="_blank" rel="noopener noreferrer">Anker USB C Fast Charger</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/dp/B089XZ5DZZ/ref=cm_sw_em_r_mt_dp_UnhJFbB9B1YPW" class="item-link" target="_blank" rel="noopener noreferrer">Anker USB C Fast Charger</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -850,9 +870,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Synology-DS220-Bay-NAS-Enclosure/dp/B08G8D74CD" target="_blank" rel="noopener noreferrer">Synology DS220+ NAS</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Synology-DS220-Bay-NAS-Enclosure/dp/B08G8D74CD" class="item-link" target="_blank" rel="noopener noreferrer">Synology DS220+ NAS</a></p>
 						
-						<span class="item-extradetails">Price varies based on installed storage</span>
+						<p class="item-extradetails">Price varies based on installed storage</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -884,9 +904,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Electronic-Arts-1077179-Star-Wars/dp/B08B6QBD53/" target="_blank" rel="noopener noreferrer">Star Wars: Squadrons</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Electronic-Arts-1077179-Star-Wars/dp/B08B6QBD53/" class="item-link" target="_blank" rel="noopener noreferrer">Star Wars: Squadrons</a></p>
 						
-						<span class="item-extradetails">PlayStation 4</span>
+						<p class="item-extradetails">PlayStation 4</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -903,9 +923,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/505-Games-CONTROLUEPlayStation 401-Control-Ultimate/dp/B08H9K6R64/" target="_blank" rel="noopener noreferrer">Control</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/505-Games-CONTROLUEPlayStation 401-Control-Ultimate/dp/B08H9K6R64/" class="item-link" target="_blank" rel="noopener noreferrer">Control</a></p>
 						
-						<span class="item-extradetails">Ultimate Edition; PlayStation 4</span>
+						<p class="item-extradetails">Ultimate Edition; PlayStation 4</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -922,9 +942,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Legend-Zelda-Links-Awakening-Nintendo/dp/B07SMRLNJH" target="_blank" rel="noopener noreferrer">The Legend of Zelda: Link’s Awakening</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Legend-Zelda-Links-Awakening-Nintendo/dp/B07SMRLNJH" class="item-link" target="_blank" rel="noopener noreferrer">The Legend of Zelda: Link’s Awakening</a></p>
 						
-						<span class="item-extradetails">Nintendo Switch</span>
+						<p class="item-extradetails">Nintendo Switch</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -943,9 +963,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/gp/product/B08HJXRB1K/" target="_blank" rel="noopener noreferrer">Super Mario 3D World + Bowser’s Fury</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/gp/product/B08HJXRB1K/" class="item-link" target="_blank" rel="noopener noreferrer">Super Mario 3D World + Bowser’s Fury</a></p>
 						
-						<span class="item-extradetails">Nintendo Switch</span>
+						<p class="item-extradetails">Nintendo Switch</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -962,9 +982,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://store.nintendo.co.uk/nintendo-switch-game/hyrule-warriors-age-of-calamity/12691877.html" target="_blank" rel="noopener noreferrer">Hyrule Warriors: Age of Calamity</a></span>
+						<p class="item-name"><a href="https://store.nintendo.co.uk/nintendo-switch-game/hyrule-warriors-age-of-calamity/12691877.html" class="item-link" target="_blank" rel="noopener noreferrer">Hyrule Warriors: Age of Calamity</a></p>
 						
-						<span class="item-extradetails">Nintendo Switch</span>
+						<p class="item-extradetails">Nintendo Switch</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -981,28 +1001,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Watch-Legion-Limited-Exclusive-Amazon-co-uk/dp/B08FC1S9YB/" target="_blank" rel="noopener noreferrer">Watch Dogs Legion</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Watch-Legion-Limited-Exclusive-Amazon-co-uk/dp/B08FC1S9YB/" class="item-link" target="_blank" rel="noopener noreferrer">Watch Dogs Legion</a></p>
 						
-						<span class="item-extradetails">PS5</span>
-						
-					</div>
-					<aside class="item-metadata">
-						
-						
-						<span class="item-price">£52</span>
-						
-					</aside>
-				</li>
-				
-				
-			
-				
-				
-				<li class="wishlist-item">
-					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Immortals-Fenyx-Rising-Limited-PS5/dp/B08HP3JHZ7" target="_blank" rel="noopener noreferrer">Immortals: Fenyx Rising</a></span>
-						
-						<span class="item-extradetails">PS5</span>
+						<p class="item-extradetails">PS5</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1019,9 +1020,28 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Assassins-Valhalla-Limited-Exclusive-Amazon-co-uk/dp/B08FC1R8C9" target="_blank" rel="noopener noreferrer">Assassin’s Creed Valhalla</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Immortals-Fenyx-Rising-Limited-PS5/dp/B08HP3JHZ7" class="item-link" target="_blank" rel="noopener noreferrer">Immortals: Fenyx Rising</a></p>
 						
-						<span class="item-extradetails">PS5</span>
+						<p class="item-extradetails">PS5</p>
+						
+					</div>
+					<aside class="item-metadata">
+						
+						
+						<span class="item-price">£52</span>
+						
+					</aside>
+				</li>
+				
+				
+			
+				
+				
+				<li class="wishlist-item">
+					<div class="item-info">
+						<p class="item-name"><a href="https://www.amazon.co.uk/Assassins-Valhalla-Limited-Exclusive-Amazon-co-uk/dp/B08FC1R8C9" class="item-link" target="_blank" rel="noopener noreferrer">Assassin’s Creed Valhalla</a></p>
+						
+						<p class="item-extradetails">PS5</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1038,9 +1058,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Crash-BandicootTM-About-Time-Tote/dp/B08CBNQ4YM/" target="_blank" rel="noopener noreferrer">Crash Bandicoot 4: It’s About Time</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Crash-BandicootTM-About-Time-Tote/dp/B08CBNQ4YM/" class="item-link" target="_blank" rel="noopener noreferrer">Crash Bandicoot 4: It’s About Time</a></p>
 						
-						<span class="item-extradetails">PlayStation 4</span>
+						<p class="item-extradetails">PlayStation 4</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1057,9 +1077,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Square-Enix-SQEA46-UK-24ST-Hitman-III/dp/B08LF91C92" target="_blank" rel="noopener noreferrer">Hitman III</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Square-Enix-SQEA46-UK-24ST-Hitman-III/dp/B08LF91C92" class="item-link" target="_blank" rel="noopener noreferrer">Hitman III</a></p>
 						
-						<span class="item-extradetails">PS5</span>
+						<p class="item-extradetails">PS5</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1076,28 +1096,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.game.co.uk/en/marvels-spider-man-miles-morales-ultimate-edition-2836820" target="_blank" rel="noopener noreferrer">Spider-Man: Miles Morales</a></span>
+						<p class="item-name"><a href="https://www.game.co.uk/en/marvels-spider-man-miles-morales-ultimate-edition-2836820" class="item-link" target="_blank" rel="noopener noreferrer">Spider-Man: Miles Morales</a></p>
 						
-						<span class="item-extradetails">Ultimate Edition; PS5</span>
-						
-					</div>
-					<aside class="item-metadata">
-						
-						
-						<span class="item-price">£70</span>
-						
-					</aside>
-				</li>
-				
-				
-			
-				
-				
-				<li class="wishlist-item">
-					<div class="item-info">
-						<span class="item-name"><a href="https://www.game.co.uk/en/gotham-knights-2831090" target="_blank" rel="noopener noreferrer">Gotham Knights</a></span>
-						
-						<span class="item-extradetails">Release date in 2021; PS5</span>
+						<p class="item-extradetails">Ultimate Edition; PS5</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1114,9 +1115,28 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Ratchet-Clank-Rift-Apart-PS5/dp/B08W63D82J/" target="_blank" rel="noopener noreferrer">Ratchet and Clank: Rift Apart</a></span>
+						<p class="item-name"><a href="https://www.game.co.uk/en/gotham-knights-2831090" class="item-link" target="_blank" rel="noopener noreferrer">Gotham Knights</a></p>
 						
-						<span class="item-extradetails">Release date in 2021; PS5</span>
+						<p class="item-extradetails">Release date in 2021; PS5</p>
+						
+					</div>
+					<aside class="item-metadata">
+						
+						
+						<span class="item-price">£70</span>
+						
+					</aside>
+				</li>
+				
+				
+			
+				
+				
+				<li class="wishlist-item">
+					<div class="item-info">
+						<p class="item-name"><a href="https://www.amazon.co.uk/Ratchet-Clank-Rift-Apart-PS5/dp/B08W63D82J/" class="item-link" target="_blank" rel="noopener noreferrer">Ratchet and Clank: Rift Apart</a></p>
+						
+						<p class="item-extradetails">Release date in 2021; PS5</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1148,9 +1168,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/" target="_blank" rel="noopener noreferrer">Le Creuset Stoneware Mug</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/" class="item-link" target="_blank" rel="noopener noreferrer">Le Creuset Stoneware Mug</a></p>
 						
-						<span class="item-extradetails">350ml; satin black finish</span>
+						<p class="item-extradetails">350ml; satin black finish</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1169,7 +1189,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Thinkgeek-Star-Trek-Enterprise-Cutter/dp/B00J5HL9UO/" target="_blank" rel="noopener noreferrer">Star Trek ‘Enterprise’ pizza cutter</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Thinkgeek-Star-Trek-Enterprise-Cutter/dp/B00J5HL9UO/" class="item-link" target="_blank" rel="noopener noreferrer">Star Trek ‘Enterprise’ pizza cutter</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1203,7 +1223,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227" target="_blank" rel="noopener noreferrer">Raspberry Pi Pico</a></span>
+						<p class="item-name"><a href="https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227" class="item-link" target="_blank" rel="noopener noreferrer">Raspberry Pi Pico</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1222,7 +1242,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://thepihut.com/products/raspberry-pi-zero-wh-with-pre-soldered-header" target="_blank" rel="noopener noreferrer">Raspberry Pi Zero W</a></span>
+						<p class="item-name"><a href="https://thepihut.com/products/raspberry-pi-zero-wh-with-pre-soldered-header" class="item-link" target="_blank" rel="noopener noreferrer">Raspberry Pi Zero W</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1241,7 +1261,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://shop.pimoroni.com/products/pico-unicorn-pack" target="_blank" rel="noopener noreferrer">Pimoroni Pico Unicorn Pack</a></span>
+						<p class="item-name"><a href="https://shop.pimoroni.com/products/pico-unicorn-pack" class="item-link" target="_blank" rel="noopener noreferrer">Pimoroni Pico Unicorn Pack</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1258,7 +1278,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://thepihut.com/products/raspberry-pi-high-quality-camera-lens" target="_blank" rel="noopener noreferrer">Raspberry Pi High Quality Camera Lens</a></span>
+						<p class="item-name"><a href="https://thepihut.com/products/raspberry-pi-high-quality-camera-lens" class="item-link" target="_blank" rel="noopener noreferrer">Raspberry Pi High Quality Camera Lens</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1277,7 +1297,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/" target="_blank" rel="noopener noreferrer">Star Trek: Discovery 1/2500 scale model</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/" class="item-link" target="_blank" rel="noopener noreferrer">Star Trek: Discovery 1/2500 scale model</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1296,7 +1316,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://thepihut.com/products/raspberry-pi-high-quality-camera-lens" target="_blank" rel="noopener noreferrer">Raspberry Pi High Quality Camera Module</a></span>
+						<p class="item-name"><a href="https://thepihut.com/products/raspberry-pi-high-quality-camera-lens" class="item-link" target="_blank" rel="noopener noreferrer">Raspberry Pi High Quality Camera Module</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1315,9 +1335,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://shop.pimoroni.com/products/keybow-2040?variant=32399559589971" target="_blank" rel="noopener noreferrer">Pimoroni Keybow 2040</a></span>
+						<p class="item-name"><a href="https://shop.pimoroni.com/products/keybow-2040?variant=32399559589971" class="item-link" target="_blank" rel="noopener noreferrer">Pimoroni Keybow 2040</a></p>
 						
-						<span class="item-extradetails">With “clicky” keys</span>
+						<p class="item-extradetails">With “clicky” keys</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1336,7 +1356,7 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://shop.pimoroni.com/products/inky-impression" target="_blank" rel="noopener noreferrer">Pimoroni Inky Impression epaper display</a></span>
+						<p class="item-name"><a href="https://shop.pimoroni.com/products/inky-impression" class="item-link" target="_blank" rel="noopener noreferrer">Pimoroni Inky Impression epaper display</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1353,7 +1373,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://shop.pimoroni.com/products/picade-10-inch-display-upgrade-kit" target="_blank" rel="noopener noreferrer">Picade 10-inch Display Upgrade Kit</a></span>
+						<p class="item-name"><a href="https://shop.pimoroni.com/products/picade-10-inch-display-upgrade-kit" class="item-link" target="_blank" rel="noopener noreferrer">Picade 10-inch Display Upgrade Kit</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1372,7 +1392,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi" target="_blank" rel="noopener noreferrer">Adafruit IoT Pi Printer Project Pack</a></span>
+						<p class="item-name"><a href="https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi" class="item-link" target="_blank" rel="noopener noreferrer">Adafruit IoT Pi Printer Project Pack</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1406,30 +1426,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name">Eurovision Song Contest 2012 album</span>
+						<p class="item-name">Eurovision Song Contest 2012 album</p>
 						
-						<span class="item-extradetails">On CD</span>
-						
-					</div>
-					<aside class="item-metadata">
-						
-						<span class="item-giftidea">Gift idea</span>
-						
-						
-						<span class="item-price">Varies</span>
-						
-					</aside>
-				</li>
-				
-				
-			
-				
-				
-				<li class="wishlist-item">
-					<div class="item-info">
-						<span class="item-name">Eurovision Song Contest 2007 album</span>
-						
-						<span class="item-extradetails">On CD</span>
+						<p class="item-extradetails">On CD</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1448,30 +1447,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name">Eurovision Song Contest 2003 album</span>
+						<p class="item-name">Eurovision Song Contest 2007 album</p>
 						
-						<span class="item-extradetails">On CD</span>
-						
-					</div>
-					<aside class="item-metadata">
-						
-						<span class="item-giftidea">Gift idea</span>
-						
-						
-						<span class="item-price">Varies</span>
-						
-					</aside>
-				</li>
-				
-				
-			
-				
-				
-				<li class="wishlist-item">
-					<div class="item-info">
-						<span class="item-name">Eurovision Song Contest 2001 album</span>
-						
-						<span class="item-extradetails">On CD</span>
+						<p class="item-extradetails">On CD</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1490,9 +1468,51 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name">Eurovision Song Contest 2000 album</span>
+						<p class="item-name">Eurovision Song Contest 2003 album</p>
 						
-						<span class="item-extradetails">On CD</span>
+						<p class="item-extradetails">On CD</p>
+						
+					</div>
+					<aside class="item-metadata">
+						
+						<span class="item-giftidea">Gift idea</span>
+						
+						
+						<span class="item-price">Varies</span>
+						
+					</aside>
+				</li>
+				
+				
+			
+				
+				
+				<li class="wishlist-item">
+					<div class="item-info">
+						<p class="item-name">Eurovision Song Contest 2001 album</p>
+						
+						<p class="item-extradetails">On CD</p>
+						
+					</div>
+					<aside class="item-metadata">
+						
+						<span class="item-giftidea">Gift idea</span>
+						
+						
+						<span class="item-price">Varies</span>
+						
+					</aside>
+				</li>
+				
+				
+			
+				
+				
+				<li class="wishlist-item">
+					<div class="item-info">
+						<p class="item-name">Eurovision Song Contest 2000 album</p>
+						
+						<p class="item-extradetails">On CD</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1526,9 +1546,9 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name">Fountain pen</span>
+						<p class="item-name">Fountain pen</p>
 						
-						<span class="item-extradetails">An all metal fountain pen with refillable ink</span>
+						<p class="item-extradetails">An all metal fountain pen with refillable ink</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1547,7 +1567,7 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.etsy.com/uk/listing/539285410/" target="_blank" rel="noopener noreferrer">Monitor stand riser</a></span>
+						<p class="item-name"><a href="https://www.etsy.com/uk/listing/539285410/" class="item-link" target="_blank" rel="noopener noreferrer">Monitor stand riser</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1579,9 +1599,9 @@
 				
 				<li class="wishlist-item item-purchased hidden">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/" target="_blank" rel="noopener noreferrer">Double-edge safety razor and blades</a></span>
+						<p class="item-name"><a href="https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/" class="item-link" target="_blank" rel="noopener noreferrer">Double-edge safety razor and blades</a></p>
 						
-						<span class="item-extradetails">Example linked; look around for a nice one</span>
+						<p class="item-extradetails">Example linked; look around for a nice one</p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1613,7 +1633,7 @@
 				
 				<li class="wishlist-item">
 					<div class="item-info">
-						<span class="item-name"><a href="https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7c/buy/ilce-7cl" target="_blank" rel="noopener noreferrer">Sony α7C</a></span>
+						<p class="item-name"><a href="https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7c/buy/ilce-7cl" class="item-link" target="_blank" rel="noopener noreferrer">Sony α7C</a></p>
 						
 					</div>
 					<aside class="item-metadata">
@@ -1632,21 +1652,6 @@
 		
 		
 		
-		
-		<fieldset id="toggle-purchased">
-			<legend>Toggle purchased items</legend>
-			
-			<div class="radio-input">
-				<input type="radio" onChange="togglePurchased();" name="toggle-purchased" id="show-purchased" value="show">
-				<label for="show-purchased">Show</label>
-			</div>
-			
-			<div class="radio-input">
-				<input type="radio" onChange="togglePurchased();" name="toggle-purchased" id="hide-purchased" value="hide" checked>
-				<label for="hide-purchased">Hide</label>
-			</div>
-			
-		</fieldset>
 							
 	</section>
 	
@@ -1659,24 +1664,26 @@
 		<aside id="footer--wordmark">
 			
 			<p class="footer--wordmark">John Peart</p>
-			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			<p><a href="//www.johnpe.art/" class="footer--site-link">johnpe.art</a></p>
 			
 		</aside>
 		
 		<nav id="footer--links">
 			
+			
 			<ul>
 				
-					<li><a href="//johnpe.art/about" class="footer--nav-link" title="Visit the About me page">About me</a></li>
-					<li><a href="//johnpe.art/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
-					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos pages">Photos</a></li>
-					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
-					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals pages">Goals</a></li>
-					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
-					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the manuals Manuals for my projects">Manuals</a></li>
-					<li><a href="//wishlist.johnpe.art" class="footer--nav-link" title="See my wishlist">Wishlist</a></li>
+					<li><a href="//www.johnpe.art/about" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					<li><a href="//www.johnpe.art/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					<li><a href="//www.johnpe.art/photos" class="footer--nav-link" title="Visit the Photos pages">Photos</a></li>
+					<li><a href="//www.johnpe.art/podcast" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					<li><a href="//www.johnpe.art/goals" class="footer--nav-link" title="Visit the Goals pages">Goals</a></li>
+					<li><a href="//www.johnpe.art/projects" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					<li><a href="//www.johnpe.art/manuals" class="footer--nav-link" title="Visit the manuals Manuals for my projects">Manuals</a></li>
+					<li><a href="//www.johnpe.art/wishlist" class="footer--nav-link" title="See my wishlist">Wishlist</a></li>
 				
 			</ul>
+				
 			
 		</nav>
 	
