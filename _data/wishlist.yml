@@ -304,14 +304,14 @@
   items:
   - name: "Raspberry Pi High Quality Camera Module"
     price: 49.50
-    purchased: false
+    purchased: true
     link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
     gift-idea: true
   - name: "Raspberry Pi High Quality Camera Lens"
     price: 25.00
-    purchased: false
+    purchased: true
     link: "https://thepihut.com/products/raspberry-pi-high-quality-camera-lens"
-    gift-idea: true
+    gift-idea: false
   - name: "Adafruit IoT Pi Printer Project Pack"
     price: 106.00
     purchased: false
