@@ -5,6 +5,7 @@
     purchased: false
     link: "https://www.amazon.co.uk/dp/B089XZ5DZZ/ref=cm_sw_em_r_mt_dp_UnhJFbB9B1YPW"
     gift-idea: true
+<<<<<<< HEAD
   - name: "Anker PowerWave Magnetic 2-in-1 stand"
     price: 39.99
     purchased: false
@@ -23,6 +24,9 @@
     link: "https://www.amazon.co.uk/Synology-DS220-Bay-NAS-Enclosure/dp/B08G8D74CD"
     gift-idea: false
 
+=======
+  
+>>>>>>> b83e573a43dbaae64d9e4e9f8f40cf56a2fb494f
 - list: "Games"
   items:
   - name: "Crash Bandicoot 4: It's About Time"
@@ -120,18 +124,6 @@
     purchased: true
     link: "https://store.nintendo.co.uk/nintendo-switch-accessory/nintendo-switch-accessory-set/11396100.html"
     gift-idea: true
-  - name: "Analogue Pocket"
-    extra-details: "Price in USD"
-    price: 199.99
-    purchased: false
-    link: "https://www.analogue.co/pocket/"
-    gift-idea: false
-  - name: "Playdate"
-    extra-details: "Price in USD"
-    price: 149.00
-    purchased: false
-    link: "https://play.date"
-    gift-idea: false
 
 - list: "Accessories"
   description: "These are just examples from Etsy; use them as inspiration"
@@ -158,12 +150,6 @@
 
 - list: "Apple accessories"
   items:
-  - name: "Apple Watch Sport Loop"
-    extra-details: "44mm, Size 4, PRODUCT(RED)"
-    price: 49.00
-    purchased: false
-    link: "https://www.apple.com/uk/shop/product/MYTK2ZM/A/44mm-productred-solo-loop-size-4"
-    gift-idea: true
   - name: "Apple Watch Braided Solo Loop"
     extra-details: "44mm, Size 4, PRODUCT(RED)"
     price: 99.00
@@ -175,12 +161,6 @@
     price: 24.13
     purchased: true
     link: "https://www.etsy.com/uk/listing/743471448/genuine-leather-distressed-leather-for"
-    gift-idea: true
-  - name: "Elago W4 Apple Watch stand"
-    extra-details: "Aqua Blue"
-    price: 13.99
-    purchased: true
-    link: "https://www.amazon.co.uk/elago-Stand-Charging-Dock-Aqua-Blue/dp/B06Y1ZLJG4/"
     gift-idea: true
   - name: "iPhone Leather Wallet with MagSafe"
     extra-details: "Black"
@@ -194,6 +174,7 @@
     purchased: true
     link: "https://store.apple.com/uk/xc/product/MHXH3ZM/A"
     gift-idea: false
+<<<<<<< HEAD
   - name: "Elago MS3 charging stand"
     extra-details: "Silver"
     price: 23.99
@@ -201,6 +182,9 @@
     link: "https://www.amazon.co.uk/elago-Charging-Compatible-MagSafe-Charger-Silver/dp/B08TBQ6CPN"
     gift-idea: true
 
+=======
+  
+>>>>>>> b83e573a43dbaae64d9e4e9f8f40cf56a2fb494f
 - list: "Kitchen"
   items:
   - name: "Star Trek 'Enterprise' pizza cutter"
@@ -241,12 +225,6 @@
     purchased: false
     link: "https://www.uniqlo.com/uk/en/product/men-uniqlo-u-merino-blend-mock-neck-jumper-432922.html?dwvar_432922_color=COL34&dwvar_432922_size=SMA002"
     gift-idea: true
-  - name: "Sports socks"
-    extra-details: "Size 10; low cut"
-    price: 0.00
-    purchased: false
-    link: "https://www.uniqlo.com/uk/en/product/men-low-cut-socks-423538.html?dwvar_423538_color=COL65&dwvar_423538_size=MSC027&cgid=IDm-socks"
-    gift-idea: true
   - name: "Grandad collar shirts"
     extra-details: "Size S"
     price: 24.90
@@ -274,36 +252,11 @@
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/2007"
     gift-idea: true
-  - name: "LEGO Art Star Wars The Sith"
-    extra-details: "Three pieces for a full set"
-    price: 114.99
-    purchased: false
-    link: "https://www.lego.com/en-gb/product/star-wars-the-sith-31200"
-    gift-idea: true
-  - name: "LEGO Stormtrooper helmet"
-    price: 54.99
-    purchased: false
-    link: "https://www.lego.com/en-gb/product/stormtrooper-helmet-75276"
-    gift-idea: true
-  - name: "LEGO TIE Fighter pilot helmet"
-    price: 54.99
-    purchased: false
-    link: "https://www.lego.com/en-gb/product/tie-fighter-pilot-helmet-75274"
-    gift-idea: true
   - name: "Steel coffee table"
     price: 379.00
     purchased: false
     link: "https://www.etsy.com/uk/listing/873944219/"
     gift-idea: false
-
-- list: "Personal care"
-  items:
-  - name: "Double-edge safety razor and blades"
-    extra-details: "Example linked; look around for a nice one"
-    price: 20.00
-    purchased: true
-    link: "https://www.amazon.co.uk/Edwin-Jagger-Amazon-Exclusive-Knurled/dp/B00K6Z24SK/"
-    gift-idea: true
 
 - list: "Making"
   items:
@@ -322,11 +275,6 @@
     purchased: false
     link: "https://thepihut.com/products/adafruit-iot-pi-printer-project-pack-includes-raspberry-pi"
     gift-idea: true
-  - name: "Star Trek: Discovery 1/2500 scale model"
-    price: 45.35
-    purchased: false
-    link: "https://www.amazon.co.uk/Polar-Lights-Star-Trek-Discovery/dp/B07QGYHXYL/"
-    gift-idea: true
   - name: "Raspberry Pi Zero W"
     price: 13.50
     purchased: false
@@ -334,23 +282,23 @@
     gift-idea: true
   - name: "Pimoroni Inky Impression epaper display"
     price: 66.00
-    purchased: true
+    purchased: false
     link: "https://shop.pimoroni.com/products/inky-impression"
-    gift-idea: false
+    gift-idea: true
   - name: "Raspberry Pi Pico"
     price: 3.90
-    purchased: false
+    purchased: true
     link: "https://shop.pimoroni.com/products/raspberry-pi-pico?variant=32402092294227"
-    gift-idea: true
+    gift-idea: false
   - name: "Pimoroni Keybow 2040"
     extra-details: "With “clicky” keys"
     price: 49.50
-    purchased: false
+    purchased: true
     link: "https://shop.pimoroni.com/products/keybow-2040?variant=32399559589971"
-    gift-idea: true
+    gift-idea: false
   - name: "Pimoroni Pico Unicorn Pack"
     price: 19.80
-    purchased: false
+    purchased: true
     link: "https://shop.pimoroni.com/products/pico-unicorn-pack"
     gift-idea: false
   - name: "Picade 10-inch Display Upgrade Kit"
@@ -361,6 +309,11 @@
 
 - list: "Music"
   items:
+  - name: "Eurovision Song Contest 2021 album"
+    extra-details: "On CD"
+    price: 0.00
+    purchased: false
+    gift-idea: true
   - name: "Eurovision Song Contest 2012 album"
     extra-details: "On CD"
     price: 0.00
