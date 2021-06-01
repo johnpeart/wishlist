@@ -158,17 +158,7 @@
     purchased: true
     link: "https://store.apple.com/uk/xc/product/MHXH3ZM/A"
     gift-idea: false
-<<<<<<< HEAD
-  - name: "Elago MS3 charging stand"
-    extra-details: "Silver"
-    price: 23.99
-    purchased: false
-    link: "https://www.amazon.co.uk/elago-Charging-Compatible-MagSafe-Charger-Silver/dp/B08TBQ6CPN"
-    gift-idea: true
 
-=======
-
->>>>>>> b83e573a43dbaae64d9e4e9f8f40cf56a2fb494f
 - list: "Kitchen"
   items:
   - name: "Star Trek 'Enterprise' pizza cutter"
