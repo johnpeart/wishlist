@@ -5,28 +5,12 @@
     purchased: false
     link: "https://www.amazon.co.uk/dp/B089XZ5DZZ/ref=cm_sw_em_r_mt_dp_UnhJFbB9B1YPW"
     gift-idea: true
-<<<<<<< HEAD
   - name: "Anker PowerWave Magnetic 2-in-1 stand"
     price: 39.99
     purchased: false
     link: "https://www.amazon.co.uk/Anker-Wireless-PowerWave-Magnetic-Charging-White-dp-B08T183BV6/dp/B08T183BV6"
     gift-idea: true
-  - name: "Salt Apple TV remote"
-    extra-details: "Not sold in the UK; needs to be imported"
-    price: 40.00
-    purchased: false
-    link: "https://www.ebay.co.uk/itm/Salt-Apple-TV-Remote-Control-Alternative-Swiss-version/333578617307"
-    gift-idea: false
-  - name: "Synology DS220+ NAS"
-    extra-details: "Price varies based on installed storage"
-    price: 600.00
-    purchased: false
-    link: "https://www.amazon.co.uk/Synology-DS220-Bay-NAS-Enclosure/dp/B08G8D74CD"
-    gift-idea: false
 
-=======
-  
->>>>>>> b83e573a43dbaae64d9e4e9f8f40cf56a2fb494f
 - list: "Games"
   items:
   - name: "Crash Bandicoot 4: It's About Time"
@@ -183,7 +167,7 @@
     gift-idea: true
 
 =======
-  
+
 >>>>>>> b83e573a43dbaae64d9e4e9f8f40cf56a2fb494f
 - list: "Kitchen"
   items:
