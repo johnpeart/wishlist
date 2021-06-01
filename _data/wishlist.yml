@@ -1,9 +1,14 @@
 - list: "Gadgets"
   items:
   - name: "Anker USB C Fast Charger"
-    price: 45.99
+    price: 48.99
     purchased: false
     link: "https://www.amazon.co.uk/dp/B089XZ5DZZ/ref=cm_sw_em_r_mt_dp_UnhJFbB9B1YPW"
+    gift-idea: true
+  - name: "Anker PowerWave Magnetic 2-in-1 stand"
+    price: 39.99
+    purchased: false
+    link: "https://www.amazon.co.uk/Anker-Wireless-PowerWave-Magnetic-Charging-White-dp-B08T183BV6/dp/B08T183BV6"
     gift-idea: true
   - name: "Salt Apple TV remote"
     extra-details: "Not sold in the UK; needs to be imported"
@@ -17,7 +22,7 @@
     purchased: false
     link: "https://www.amazon.co.uk/Synology-DS220-Bay-NAS-Enclosure/dp/B08G8D74CD"
     gift-idea: false
-  
+
 - list: "Games"
   items:
   - name: "Crash Bandicoot 4: It's About Time"
@@ -98,7 +103,7 @@
     purchased: false
     link: "https://store.steampowered.com/app/1252330/DEATHLOOP/"
     gift-idea: true
-  
+
 - list: "Consoles and accessories"
   items:
   - name: "PlayStation 5"
@@ -195,7 +200,7 @@
     purchased: false
     link: "https://www.amazon.co.uk/elago-Charging-Compatible-MagSafe-Charger-Silver/dp/B08TBQ6CPN"
     gift-idea: true
-  
+
 - list: "Kitchen"
   items:
   - name: "Star Trek 'Enterprise' pizza cutter"
@@ -209,7 +214,7 @@
     purchased: false
     link: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
     gift-idea: true
-      
+
 - list: "Clothing"
   items:
   - name: "Crew neck t-shirts"
@@ -353,7 +358,7 @@
     purchased: false
     link: "https://shop.pimoroni.com/products/picade-10-inch-display-upgrade-kit"
     gift-idea: true
-    
+
 - list: "Music"
   items:
   - name: "Eurovision Song Contest 2012 album"
@@ -381,7 +386,7 @@
     price: 0.00
     purchased: false
     gift-idea: true
-  
+
 - list: "Office and stationery"
   items:
   - name: "Fountain pen"
@@ -394,7 +399,7 @@
     price: 94.99
     purchased: true
     gift-idea: true
-    
+
 - list: "Photography"
   items:
   - name: "Sony α7C"
