@@ -209,20 +209,26 @@
 
 - list: "Furnishings"
   items:
+  - name: "Icon throw blanket"
+    extra-details: "Shipped from outside UK; postage c. £30"
+    price: 35.00
+    purchased: false
+    link: "https://throwboy.com/collections/blankets/products/icon-throw-blanket"
+    gift-idea: true
   - name: "1984 pillow"
-    extra-details: "Shipped from outside UK"
+    extra-details: "Shipped from outside UK; postage c. £30"
     price: 30.00
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1984"
     gift-idea: true
   - name: "1998 pillow"
-    extra-details: "Shipped from outside UK"
+    extra-details: "Shipped from outside UK; postage c. £30"
     price: 30.00
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
     gift-idea: true
   - name: "2007 pillow"
-    extra-details: "Shipped from outside UK"
+    extra-details: "Shipped from outside UK; postage c. £30"
     price: 30.00
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/2007"
