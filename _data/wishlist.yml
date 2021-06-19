@@ -180,54 +180,44 @@
 
 - list: "Clothing"
   items:
-  - name: "Crew neck t-shirts"
-    extra-details: "Size S; example t-shirt linked"
+  - name: "Polo shirts"
+    extra-details: "Size S; short sleeved"
     price: 0.00
     purchased: false
-    link: "https://www.uniqlo.com/uk/en/product/men-100pct-supima-cotton-crew-neck-short-sleeved-t-shirt-422990.html?dwvar_422990_color=COL52&dwvar_422990_size=SMA002"
-    gift-idea: true
-  - name: "Polo shirts"
-    extra-details: "Size S; short sleeved; example polo shirt linked"
-    price: 19.90
-    purchased: false
-    link: "https://www.uniqlo.com/uk/en/product/men-dry-ex-polo-shirt-422962.html?dwvar_422962_color=COL03&dwvar_422962_size=SMA005"
     gift-idea: true
   - name: "Jersey polo shirts"
-    extra-details: "Size S; short sleeved; example jersey shirt linked"
-    price: 19.90
+    extra-details: "Size S; short sleeved"
+    price: 0.00
     purchased: false
-    link: "https://www.uniqlo.com/uk/en/product/men-airism-jersey-polo-shirt-425770.html?dwvar_425770_color=COL32&dwvar_425770_size=SMA002&cgid=IDm-polo-shirts"
     gift-idea: true
-  - name: "Mock neck jumpers"
+  - name: "Mock turtle neck jumpers"
     extra-details: "Size S"
-    price: 34.90
+    price: 0.00
     purchased: false
-    link: "https://www.uniqlo.com/uk/en/product/men-uniqlo-u-merino-blend-mock-neck-jumper-432922.html?dwvar_432922_color=COL34&dwvar_432922_size=SMA002"
     gift-idea: true
   - name: "Grandad collar shirts"
     extra-details: "Size S"
-    price: 24.90
+    price: 0.00
     purchased: false
-    link: "https://www.uniqlo.com/uk/en/product/men-extra-fine-cotton-broadcloth-regular-fit-shirt-grandad-collar-425687.html?dwvar_425687_color=COL64&dwvar_425687_size=SMA002&cgid=IDalternate-styles2308&hassubcat=false"
     gift-idea: true
 
 - list: "Furnishings"
   items:
   - name: "1984 pillow"
-    extra-details: "Price in USD"
-    price: 39.99
+    extra-details: "Shipped from outside UK"
+    price: 30.00
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1984"
     gift-idea: true
   - name: "1998 pillow"
-    extra-details: "Price in USD"
-    price: 39.99
+    extra-details: "Shipped from outside UK"
+    price: 30.00
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/1998"
     gift-idea: true
   - name: "2007 pillow"
-    extra-details: "Price in USD"
-    price: 39.99
+    extra-details: "Shipped from outside UK"
+    price: 30.00
     purchased: false
     link: "https://throwboy.com/collections/throwboy-pillows/products/2007"
     gift-idea: true
