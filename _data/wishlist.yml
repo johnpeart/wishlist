@@ -7,7 +7,7 @@
     gift-idea: true
   - name: "Anker PowerWave Magnetic 2-in-1 stand"
     price: 39.99
-    purchased: false
+    purchased: true
     link: "https://www.amazon.co.uk/Anker-Wireless-PowerWave-Magnetic-Charging-White-dp-B08T183BV6/dp/B08T183BV6"
     gift-idea: true
 
@@ -90,6 +90,12 @@
     price: 49.99
     purchased: false
     link: "https://store.steampowered.com/app/1252330/DEATHLOOP/"
+    gift-idea: true
+  - name: "Metroid: Dread"
+    extra-details: "Nintendo Switch"
+    price: 59.99
+    purchased: false
+    link: "https://www.amazon.co.uk/dp/B097BP5DLQ/"
     gift-idea: true
 
 - list: "Consoles and accessories"
